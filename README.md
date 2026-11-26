@@ -56,10 +56,10 @@ Run from the repository root.
 | 2. Fit (multistart) | `python scripts/fit.py setE_orchid_sigmas <nproc>` | fit | about 5 min per start |
 | 3. Curvature at a fitted point | `python scripts/curvature.py setE_orchid_sigmas [theta.json]` | fit | minutes |
 | 3b. Soft directions of the curvature | `python scripts/soft_scan.py scripts setE_orchid_sigmas <curvature.json> > <scan.json>`, then `python scripts/repair_cov.py <curvature.json> <scan.json> <out.json>` | fit | minutes |
-| 4. Sampling | `python scripts/mcmc.py setE_orchid_sigmas mcmc/setE_run1 <seed> 20 12000 <nproc>` | sampling | hours |
+| 4. Sampling | `python scripts/mcmc.py setE_orchid_sigmas mcmc/setE_run1 <seed> 20 12000 <nproc>` | sampling | about two days per run on 6 cores |
 | 5. Sampling diagnostics | `python scripts/analyze_mcmc.py mcmc/setE_run1 mcmc/setE_run2 results/setE_mcmc_diag.json` | sampling | minutes |
 | 6. Ensembles | `python chapter/compute_ensembles.py 2000 1000 <nproc>` | sampling | about 22 min on 3 cores |
-| 7. Boundaries, gap shapes, walker classes | `python chapter/compute_boundaries_first.py <nproc>`, `compute_gap_shapes.py <nproc>`, `compute_mode_trace.py 100 <nproc>` | sampling | minutes to hours |
+| 7. Boundaries, gap shapes, walker classes | `python chapter/compute_boundaries_first.py <nproc>`, `compute_gap_shapes.py <nproc>`, `compute_mode_trace.py 100 <nproc>` | sampling | minutes |
 | 8. Decisions and measurement ranking | `python chapter/analyze_decisions.py` | sampling | seconds |
 | 9. Figures | `for f in plots/*.py; do python "$f"; done` | numpy, scipy, matplotlib | seconds |
 
