@@ -736,5 +736,5 @@
   ],
   "n_liquidus_observations": 32
  },
- "note": "ZPF regions with one known end enter twice, as (i) the known phase single-phase and (ii) the two-phase null-vertex ZPF condition, both derived from the same parent point (PI rule 2026-11-05); no further double counting is claimed or corrected. Hinge confidence 0.5 is a coordinator choice for the PI to confirm."
+ "note": "ZPF regions with one known end enter twice, as (i) the known phase single-phase and (ii) the two-phase null-vertex ZPF condition, both derived from the same parent point (rule of 2026-11-05); no further double counting is claimed or corrected. Hinge confidence 0.5 is an assumed value."
 }

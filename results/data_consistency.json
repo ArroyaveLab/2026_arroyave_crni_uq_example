@@ -926,7 +926,7 @@
    },
    {
     "what": "set D/E: ZPF regions with one known end enter as (i) single-phase and (ii) null-vertex two-phase observations",
-    "treatment": "two observations of one parent point (PI rule 0.4a); no further double counting claimed"
+    "treatment": "two observations of one parent point (rule 0.4a); no further double counting claimed"
    },
    {
     "what": "Jette 1934: identical (T, phase, composition) rows within the dataset ('both compositions included')",
@@ -2020,7 +2020,7 @@
    "T_K": 1448.15,
    "x_Cr": 0.95,
    "a_Cr": 0.112,
-   "source": "Pugliese & Fitterer 1970, Metall. Trans. 1, 1997, Table II (local copy ~/data/private/crni-sources-20261105/), checked by the coordinator",
+   "source": "Pugliese & Fitterer 1970, Metall. Trans. 1, 1997, Table II, checked against the source",
    "finding": "printed as 0.112, consistent with the source (the ESPEI file transcribes it faithfully); internally inconsistent with the printed cell potential (1.236 V vs 1.234 V for neighbouring alloys with a_Cr 0.98-0.99), likely a misprint in the paper",
    "action": "flag only; data unchanged; stays in set E at its ORCHID-rule sigma (2.9 kJ/mol); fit reported with and without it only if it changes the topology"
   }
