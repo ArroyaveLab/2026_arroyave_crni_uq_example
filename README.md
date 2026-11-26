@@ -62,9 +62,22 @@ Run from the repository root.
 | 8. Decisions and measurement ranking | `python chapter/analyze_decisions.py` | sampling | seconds |
 | 9. Figures | `for f in plots/*.py; do python "$f"; done` | numpy, scipy, matplotlib | seconds |
 
-Random seeds: 1105101 for the first sampling run (see `mcmc/*/run.json` for
-both), 20261106 for the independent recombination and 20261107 for the local
-Gaussian control.
+Random seeds: 1105101 and 2211202 for the two sampling runs, 20261106 for the
+independent recombination and 20261107 for the local Gaussian control.
+
+Each sampling run starts from walkers drawn around one of the two fitted
+points, with the curvature at that point. Before stage 4, copy the
+corresponding file to the name that `mcmc.py` reads:
+
+```bash
+cp inputs/setE_spark/curvature_setE_run1_b557.json fit/curvature_setE_orchid_sigmas.json   # first run
+cp inputs/setE_spark/curvature_setE_run2_b069.json fit/curvature_setE_orchid_sigmas.json   # second run
+```
+
+The figure of the two fitted points is drawn by `chapter/fig_two_modes.py`
+(run from `chapter/`), and `plots/build_fig_27_context_overview.py` crops its
+first panel for the context figure (requires `pdfcrop`, `pypdf` and
+`reportlab`).
 
 ## Environments
 
