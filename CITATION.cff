@@ -6,6 +6,7 @@ authors:
   - family-names: "Arróyave"
     given-names: "Raymundo"
     affiliation: "Texas A&M University"
+    orcid: "https://orcid.org/0000-0001-7548-8686"
 version: "0.1.0"
 date-released: "2026-11-26"
 license: CC-BY-4.0
