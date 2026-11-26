@@ -1,5 +1,10 @@
 # Cr–Ni uncertainty-analysis example
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24572122.svg)](https://doi.org/10.5281/zenodo.24572122)
+
+Version 1.0.0 is archived at https://doi.org/10.5281/zenodo.24572123; the DOI
+10.5281/zenodo.24572122 resolves to the latest version.
+
 Data and plotting scripts for the computational example (Section 7) of
 
 > R. Arróyave, "Beyond Quantification: Propagating and Exploiting CALPHAD
