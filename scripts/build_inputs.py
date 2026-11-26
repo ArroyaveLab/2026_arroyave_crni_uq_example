@@ -29,6 +29,7 @@ Thermochemistry (dataset weight = ESPEI default std / sigma assigned here):
 import copy
 import glob
 import json
+import os
 from pathlib import Path
 
 RUN = Path(__file__).resolve().parents[1]
@@ -149,7 +150,9 @@ if __name__ == "__main__" and len(__import__("sys").argv) == 1:
 # The paper's vertex treatment (unknown vertex dropped) is kept, so only the weighting differs from A.
 ORCHID_ACR_W = {"kat1733": 0.17242, "kat1783": 0.17240, "sud1833": 0.172406, "kat1833": 0.172419,
                 "gilby": 0.172419, "pei": 0.17240, "sud1873": 0.172407}
-EXPORT = Path("~/data/private/crni-assessment-export-20261105/espei/experimental/CR-NI").expanduser()
+# Optional: a folder with an ORCHID export of the same activity series (set CRNI_ORCHID_EXPORT).
+# It is used only to record the weights of that export in the build log for comparison.
+EXPORT = Path(os.environ["CRNI_ORCHID_EXPORT"]) if os.environ.get("CRNI_ORCHID_EXPORT") else None
 
 
 def build_c(dest: Path):
@@ -159,7 +162,7 @@ def build_c(dest: Path):
            "datasets": {}}
     # check the ACR series weights against the export files (same series order, same T and n)
     exp = {}
-    for f in sorted(_g.glob(str(EXPORT / "*acr_cr-*.json"))):
+    for f in (sorted(_g.glob(str(EXPORT / "*acr_cr-*.json"))) if EXPORT else []):
         d = json.loads(Path(f).read_text())
         exp.setdefault(f.split("acr_cr-")[1][:2], []).append(d["weight"])
 
