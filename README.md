@@ -55,6 +55,7 @@ Run from the repository root.
 | 1. Build dataset collections | `python scripts/build_inputs.py`, `build_setD.py`, `build_setE.py` | fit | seconds |
 | 2. Fit (multistart) | `python scripts/fit.py setE_orchid_sigmas <nproc>` | fit | about 5 min per start |
 | 3. Curvature at a fitted point | `python scripts/curvature.py setE_orchid_sigmas [theta.json]` | fit | minutes |
+| 3b. Soft directions of the curvature | `python scripts/soft_scan.py scripts setE_orchid_sigmas <curvature.json> > <scan.json>`, then `python scripts/repair_cov.py <curvature.json> <scan.json> <out.json>` | fit | minutes |
 | 4. Sampling | `python scripts/mcmc.py setE_orchid_sigmas mcmc/setE_run1 <seed> 20 12000 <nproc>` | sampling | hours |
 | 5. Sampling diagnostics | `python scripts/analyze_mcmc.py mcmc/setE_run1 mcmc/setE_run2 results/setE_mcmc_diag.json` | sampling | minutes |
 | 6. Ensembles | `python chapter/compute_ensembles.py 2000 1000 <nproc>` | sampling | about 22 min on 3 cores |
@@ -95,17 +96,32 @@ Installation commands for both environments are in
 
 ## What has been verified from this repository
 
-- Stage 9: all five plotting scripts run and regenerate the figures.
-- Stage 8: `analyze_decisions.py` reproduces `chapter_numbers.json`,
-  `fcc_maps.npz` and `boundary_bands.npz` exactly from `ensembles.npz`.
-- Stage 6: `compute_ensembles.py 2000 1000 3` reproduces `ensembles.npz`
-  byte for byte (all 35 arrays) from the stored chains, in about 22 minutes on
-  3 cores of an M1 Max.
-- Stages 1 to 5 and 7 have not been rerun from this repository.
+Every stage was rerun from a fresh copy of this repository on an Apple M1 Max
+and compared with the archived results.
 
-## Known gaps
+| Stage | Result |
+| --- | --- |
+| 1. Dataset collections A to E | Every dataset file identical |
+| 2. Fit (eight starts) | Identical log posterior and parameter values at every start, including the two fitted points (-6153.70 and -6149.93) |
+| 3, 3b. Curvature at both fitted points, with the three softest directions replaced | Identical eigenvalues; covariance equal to the stored one to a relative difference of 5e-9 |
+| 4. Sampling | Not reproduced step by step, and not expected to be (see below) |
+| 5. Sampling diagnostics | Identical |
+| 6. Ensembles | `ensembles.npz` identical, all 35 arrays |
+| 7. Boundaries, gap shapes, walker classes | Identical |
+| 8. Decisions and measurement ranking | `chapter_numbers.json`, `fcc_maps.npz` and `boundary_bands.npz` identical |
+| 9. Figures | All scripts in `plots/` and `chapter/fig_two_modes.py` run and regenerate the figures |
 
-- Stages 1 to 5 and 7 have not been rerun from this repository.
+**Sampling.** The two stored runs in `mcmc/` are the record of this analysis,
+and everything downstream is computed from them. Ensemble sampling is a
+stochastic process whose trajectory amplifies differences in the last digits
+of the arithmetic. A run repeated with the same seed on a different computer
+starts from the same walkers to within 1e-12 and follows a different
+trajectory after a few steps, so that it is a new realization of the same
+process and should be compared with the stored runs statistically. The full
+12,000-step runs were not repeated.
+
+## Known limits of the record
+
 - The exact PhaseForge+ commit loaded at the time of the fit was not logged
   (see Environments). At the time of writing, neither the ESPEI fork nor
   PhaseForge+ states a license.
@@ -116,6 +132,9 @@ Installation commands for both environments are in
   points.
 - The cached reference-energy grids (`*_ref_*.npy`) are not stored; they are
   regenerated on first use.
+- The figure scripts in `chapter/` use `chapter/style.py`, which looks for
+  Arial in the macOS system fonts and falls back to the default font
+  elsewhere.
 
 **Third-party data.** `inputs/chapter-input-data/` comes from
 `github.com/PhasesResearchLab/ESPEI-datasets` (CC BY 4.0, checksums in
