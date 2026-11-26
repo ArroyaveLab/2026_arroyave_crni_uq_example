@@ -1,0 +1,425 @@
+{
+ "set": "setD_twophase_hinge",
+ "best_start": "paper_start",
+ "logpost": -7387.6551705556585,
+ "grad_norm_q": 2.147743356922396,
+ "theta": {
+  "L0liq_a": -12924.849371434546,
+  "L0liq_b": 1.6617648457262528,
+  "L0bcc_a": 2811.9331808085262,
+  "L0bcc_b": -3.9620503386758785,
+  "L1bcc_a": 57146.801601943844,
+  "L1bcc_b": -23.515609503252083,
+  "L0fcc_a": 8442.84404636088,
+  "L0fcc_b": -12.978848330186795,
+  "L1fcc_a": 28192.851395208465,
+  "L1fcc_b": -22.453858534796296
+ },
+ "tdb_symbols": {
+  "VV0000": -12924.849371434546,
+  "VV0001": 1.6617648457262528,
+  "VV0002": 2811.9331808085262,
+  "VV0003": -3.9620503386758785,
+  "VV0004": 57146.801601943844,
+  "VV0005": -23.515609503252083,
+  "VV0006": 8442.84404636088,
+  "VV0007": -12.978848330186795,
+  "VV0008": 28192.851395208465,
+  "VV0009": -22.453858534796296
+ },
+ "topology_800_2200K": {
+  "ok": false,
+  "T_liquid_min_K": 1655.0,
+  "T_bcc_fcc_max_K": 1685.0,
+  "gaps": [
+   [
+    800.0,
+    "BCC_A2",
+    0.0008333333333333334,
+    0.6391666666666667
+   ],
+   [
+    805.0,
+    "BCC_A2",
+    0.0008333333333333334,
+    0.6383333333333334
+   ],
+   [
+    810.0,
+    "BCC_A2",
+    0.0008333333333333334,
+    0.6375000000000001
+   ],
+   [
+    815.0,
+    "BCC_A2",
+    0.0008333333333333334,
+    0.6358333333333334
+   ],
+   [
+    820.0,
+    "BCC_A2",
+    0.0008333333333333334,
+    0.635
+   ]
+  ],
+  "bad_T": [
+   [
+    800.0,
+    [
+     "BCC_A2",
+     "BCC_A2+BCC_A2",
+     "BCC_A2",
+     "BCC_A2+FCC_A1",
+     "FCC_A1"
+    ]
+   ],
+   [
+    805.0,
+    [
+     "BCC_A2",
+     "BCC_A2+BCC_A2",
+     "BCC_A2",
+     "BCC_A2+FCC_A1",
+     "FCC_A1"
+    ]
+   ],
+   [
+    810.0,
+    [
+     "BCC_A2",
+     "BCC_A2+BCC_A2",
+     "BCC_A2",
+     "BCC_A2+FCC_A1",
+     "FCC_A1"
+    ]
+   ],
+   [
+    815.0,
+    [
+     "BCC_A2",
+     "BCC_A2+BCC_A2",
+     "BCC_A2",
+     "BCC_A2+FCC_A1",
+     "FCC_A1"
+    ]
+   ],
+   [
+    820.0,
+    [
+     "BCC_A2",
+     "BCC_A2+BCC_A2",
+     "BCC_A2",
+     "BCC_A2+FCC_A1",
+     "FCC_A1"
+    ]
+   ]
+  ]
+ },
+ "sequences_300_800K": [
+  "BCC_A2 -> BCC_A2+BCC_A2 -> BCC_A2 -> BCC_A2+FCC_A1 -> FCC_A1",
+  "BCC_A2+BCC_A2 -> BCC_A2 -> BCC_A2+FCC_A1 -> FCC_A1",
+  "BCC_A2+FCC_A1 -> FCC_A1"
+ ],
+ "boundaries_xNi": {
+  "800K": {
+   "bcc": 0.6916666666666668,
+   "fcc": 0.7658333333333334
+  },
+  "1000K": {
+   "bcc": 0.7158333333333334,
+   "fcc": 0.7866666666666667
+  },
+  "1200K": {
+   "bcc": 0.7433333333333334,
+   "fcc": 0.8133333333333334
+  },
+  "1473K": {
+   "bcc": 0.7841666666666667,
+   "fcc": 0.8566666666666667
+  }
+ },
+ "zhang2014_1473K": {
+  "bcc": 0.282,
+  "fcc": 0.508
+ },
+ "excess_energies": {
+  "x_Ni=0.25": {
+   "H_ex_J": {
+    "LIQUID": -2423.4,
+    "BCC_A2": 5884.8,
+    "FCC_A1": 4226.1
+   },
+   "S_ex_J_K": {
+    "LIQUID": -0.312,
+    "BCC_A2": 2.947,
+    "FCC_A1": 4.539
+   }
+  },
+  "x_Ni=0.5": {
+   "H_ex_J": {
+    "LIQUID": -3231.2,
+    "BCC_A2": 703.0,
+    "FCC_A1": 2110.7
+   },
+   "S_ex_J_K": {
+    "LIQUID": -0.415,
+    "BCC_A2": 0.991,
+    "FCC_A1": 3.245
+   }
+  },
+  "x_Ni=0.75": {
+   "H_ex_J": {
+    "LIQUID": -2423.4,
+    "BCC_A2": -4830.3,
+    "FCC_A1": -1060.0
+   },
+   "S_ex_J_K": {
+    "LIQUID": -0.312,
+    "BCC_A2": -1.462,
+    "FCC_A1": 0.328
+   }
+  }
+ },
+ "reference_values": {
+  "DFT_HM_MIX_kJ (Liu 2016, x_Cr .75/.5/.25)": {
+   "BCC": [
+    10.02,
+    9.15,
+    4.98
+   ],
+   "FCC": [
+    -12.69,
+    -9.03,
+    -5.79
+   ]
+  },
+  "liquid_HM_MIX_x0.5_kJ": "about -3 to -4.9 (Saltykov, Thiedemann, Sudavtsova); Batalin positive"
+ },
+ "paper_opt_for_comparison": {
+  "L0liq_a": -13552.9,
+  "L0liq_b": 5.788,
+  "L0bcc_a": 14895.0,
+  "L0bcc_b": -6.353,
+  "L1bcc_a": 28769.5,
+  "L1bcc_b": -10.423,
+  "L0fcc_a": 4359.7,
+  "L0fcc_b": -5.957,
+  "L1fcc_a": 24477.4,
+  "L1fcc_b": -14.899
+ },
+ "figure": "figures/fit_setD_twophase_hinge_best.png",
+ "any_endpoint_topology_ok": false,
+ "ranked_endpoints": [
+  {
+   "start": "paper_start",
+   "logpost": -7387.6551705556585,
+   "grad_norm_q": 2.147743356922396,
+   "topology_ok": false,
+   "T_liquid_min": 1655.0,
+   "n_bad_T": 169,
+   "gaps": 20,
+   "messages": [
+    "ABNORMAL: ",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -12924.849371434546,
+    1.6617648457262528,
+    2811.9331808085262,
+    -3.9620503386758785,
+    57146.801601943844,
+    -23.515609503252083,
+    8442.84404636088,
+    -12.978848330186795,
+    28192.851395208465,
+    -22.453858534796296
+   ]
+  },
+  {
+   "start": "near_opt_0",
+   "logpost": -7393.769122211325,
+   "grad_norm_q": 2.777460435105744,
+   "topology_ok": false,
+   "T_liquid_min": 1675.0,
+   "n_bad_T": 170,
+   "gaps": 20,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -13395.928746159028,
+    2.0647201900373244,
+    1133.0920197785638,
+    -2.8683907597164997,
+    60981.67670360818,
+    -26.32035278379173,
+    6545.176385189515,
+    -11.946395479950676,
+    21669.611255639902,
+    -16.38776841759215
+   ]
+  },
+  {
+   "start": "near_start_2",
+   "logpost": -7416.077361942127,
+   "grad_norm_q": 4.5753202197186695,
+   "topology_ok": false,
+   "T_liquid_min": 1690.0,
+   "n_bad_T": 11,
+   "gaps": 5,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -13055.9028625119,
+    0.09059161689775962,
+    7836.421209901374,
+    -9.249004891258533,
+    47819.15235965476,
+    -16.700486183875473,
+    6904.338221335121,
+    -14.920891680876467,
+    30446.715757080274,
+    -18.042733744343906
+   ]
+  },
+  {
+   "start": "near_start_0",
+   "logpost": -7416.381486064188,
+   "grad_norm_q": 5.694327773364215,
+   "topology_ok": false,
+   "T_liquid_min": 1695.0,
+   "n_bad_T": 18,
+   "gaps": 9,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "ABNORMAL: ",
+    "ABNORMAL: "
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -13070.543579994412,
+    0.10278749609593167,
+    8372.489865747086,
+    -9.778279195510025,
+    46646.83947369142,
+    -15.348920616780214,
+    6848.196915152179,
+    -14.885062655907015,
+    30383.371148288243,
+    -18.00651396170356
+   ]
+  },
+  {
+   "start": "near_opt_1",
+   "logpost": -7416.544312906365,
+   "grad_norm_q": 4.138307607087443,
+   "topology_ok": false,
+   "T_liquid_min": 1690.0,
+   "n_bad_T": 12,
+   "gaps": 5,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -13085.616401200623,
+    0.07517022982499753,
+    9074.527976851796,
+    -10.1204287999405,
+    45144.88799263151,
+    -14.770036126330934,
+    7034.6025034832555,
+    -15.026733476338034,
+    31055.0696298653,
+    -18.4299783908925
+   ]
+  },
+  {
+   "start": "near_opt_2",
+   "logpost": -7416.572832451987,
+   "grad_norm_q": 5.986802023130769,
+   "topology_ok": false,
+   "T_liquid_min": 1690.0,
+   "n_bad_T": 10,
+   "gaps": 4,
+   "messages": [
+    "ABNORMAL: ",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -13045.98616693585,
+    -0.03142893244034835,
+    8245.141120951113,
+    -9.541174110953703,
+    46834.97047589319,
+    -16.13167703290581,
+    7225.086874508822,
+    -15.219894632373908,
+    32163.39028021446,
+    -19.030766938828567
+   ]
+  },
+  {
+   "start": "near_start_1",
+   "logpost": -7416.633067011515,
+   "grad_norm_q": 5.433665166876463,
+   "topology_ok": false,
+   "T_liquid_min": 1700.0,
+   "n_bad_T": 22,
+   "gaps": 13,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -13065.711779069119,
+    0.0870259832126128,
+    7847.321125263001,
+    -9.525649995572575,
+    47650.277394738245,
+    -16.13857328178016,
+    6931.9100691616695,
+    -14.946302889436303,
+    30394.939973796827,
+    -18.013150025123494
+   ]
+  },
+  {
+   "start": "paper_opt",
+   "logpost": -7431.061567950809,
+   "grad_norm_q": 14.466305658845824,
+   "topology_ok": false,
+   "T_liquid_min": 1665.0,
+   "n_bad_T": 18,
+   "gaps": 0,
+   "messages": [
+    "ABNORMAL: ",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -13004.345074453151,
+    -0.041853653088635076,
+    14013.184886129107,
+    -12.952055297504694,
+    34067.70804898178,
+    -7.2920557829535015,
+    5314.895407892891,
+    -13.480967956622417,
+    24948.76638292759,
+    -14.2143181532363
+   ]
+  }
+ ],
+ "verdict": "No set D endpoint (8 starts) has the accepted topology. Best -7387.7 (paper_start): BCC stable to x_Ni~0.7-0.8, BCC+BCC gap, lowest liquid 1655 K. Six endpoints at -7416.1 to -7416.6: lowest liquid 1690-1700 K, gaps. From paper_opt (right topology at start) the fit walks to a wrong topology (-7431.1). Per-term analysis (results/setD_terms_by_dataset.json): the Pugliese BCC activities at ESPEI's 500 J/mol default buy +612 log-units, Dench/Watson HM_FORM +28; ZPF and hinge lose 21. Set E assigns ORCHID-rule sigmas to these data."
+}

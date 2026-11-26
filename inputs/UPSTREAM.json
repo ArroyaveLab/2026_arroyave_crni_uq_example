@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "upstream": {
+    "repository": "https://github.com/PhasesResearchLab/ESPEI-datasets",
+    "commit": "e3b536426e20d8d3712e9cd7d7fcf7ac4e67f07d",
+    "license": "CC-BY-4.0"
+  },
+  "reference_aliases": {
+    "collins1988electron": "collins1988elec"
+  },
+  "topology_reference": {
+    "file": "CrNi-16Tan.tdb",
+    "sha256": "d6a051a1fa81b2256ddc76ac32d7b614036cbad64dd32aad3738caebac4a662f",
+    "source": "SGTE binary collection (Hallstedt 2025)",
+    "source_doi": "10.1016/j.calphad.2025.102833",
+    "assessment_doi": "10.1016/j.calphad.2016.10.003",
+    "license": "CC-BY-4.0",
+    "validation_window_K": [1200.0, 1600.0],
+    "required_field_sequence": ["BCC_A2", "BCC_A2+FCC_A1", "FCC_A1"]
+  },
+  "files": {
+    "CR-NI_phases.json": "7eb4ead520bc0b08602678297bcd566f992eac7d2d043de5f9a2e69636c46cb1",
+    "ESPEI-datasets-LICENSE": "4014722237c90b6f8effc35b6e04a47815c03ef14ee24683d6c1dfd0b9b644d0",
+    "ESPEI-datasets-references.bib": "0475bc7630d500bd8f866218bcd9c034e08d9d4d4ff40c058a0fb48f786ec796",
+    "input-data/activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": "ae824a526cecb5cafed5aff0839e3ed5c762f7b9476ae99b32591ed0f3946123",
+    "input-data/activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": "4a11996b9f5e3bf401f85c4d00e1fb292a59b918ef65a9e3e2a60d8a1446abd2",
+    "input-data/activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": "7b5dd365ef324f756f253af705c997c2976eeae14aa2eadc2530e56e26a212bf",
+    "input-data/activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": "43066292af26ca117b3a1720a39b2cb5f53ad003d2ea9448b1cbbb56a5e31382",
+    "input-data/activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": "210beebdeaf3a8dbddc328917fd152fb5d7390a61aaf6fe19786d69905270316",
+    "input-data/non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-dench1963adiabatic.json": "a0d29532f70afdd0a77aca0fb6010920cdbfb565d69afbc68db88d4ec1d9f6df",
+    "input-data/non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-watson1995enthapies.json": "8c7ce51e992ef45a8452f54dc5454c6ddc244853f2e13cc4a61e739e2453b3fb",
+    "input-data/non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_MIX-BCC_A2-estimated.json": "afb3a452702127fff1badb4be84df46ded295f19bdc213dea46a699372d1a371",
+    "input-data/non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-dench1963adiabatic.json": "a7037bf1939e7cedb08fd2796b582abc92c4e7665c3edb065b7a00078572af84",
+    "input-data/non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-watson1995enthapies.json": "9dc9717bef589dda98ac09f4effcb6c7484d79f20a2084dc8cce4688f06afcb3",
+    "input-data/non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json": "f5aa58d44da12c0565e7c4c6164cde74cda23a5c0f9db18f1f135bc1665e10b9",
+    "input-data/non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json": "3a11ed0898a65e5a51bf1312acd986f6ee985f3a51a4caf909da93fa3a56457a",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": "38dc226a7ad8ad680025d5c5b1d328d20adb06492b3aa08a81a4080856703ffd",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": "f92f94af37a59a73f1ba31b4afee43105edc23f1691ca2e38be9cc2653889f79",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": "0dde0cee5e473c902c69febc55f4c85cda7686fde8f1d312030d55717afcf31b",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": "e67b6dcf0c035880890428a46ef67087c58a21fb459ef40770027cd206bd1aef",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": "72a04d79119da9f9e33b3b9357eed865314371891c3c2ce92707c65d0c038d48",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": "9d4cd7cc4b83cd6b96513dbd450707a02d60a5fa9097c7409ebdb01196e8a6ac",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": "aea9808163a0d756ca474193593dd9f0cf7262284bed82c53352e019196c3d89",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": "b2615966ac1d662caedc4668e9894e2e6e2889c9fb416da3f322c593f484f513",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-FCC_A1-zhang2014impurity.json": "7ce89fdc6fb9c0f9107ec283a725b4dea2135284311c4b727414199b44cc51b5",
+    "input-data/zpf_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": "7d54a34be1e673b89a5d1ac977835bb01b638659e8573d2db51cdd9925597de8"
+  }
+}

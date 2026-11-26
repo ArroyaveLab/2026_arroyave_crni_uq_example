@@ -1,0 +1,2041 @@
+{
+ "set": "setE_orchid_sigmas",
+ "items": {
+  "1_sigma": {
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": {
+    "output": "ACR_CR",
+    "n": 13,
+    "sigma_J": 2900.0,
+    "basis": "ORCHID rule, method class 'unknown' floor (set E)",
+    "flag": false
+   },
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": {
+    "output": "ACR_CR",
+    "n": 13,
+    "sigma_J": 2900.0,
+    "basis": "ORCHID rule, method class 'unknown' floor (set E)",
+    "flag": false
+   },
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": {
+    "output": "ACR_CR",
+    "n": 13,
+    "sigma_J": 2900.0,
+    "basis": "ORCHID rule, method class 'unknown' floor (set E)",
+    "flag": false
+   },
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": {
+    "output": "ACR_CR",
+    "n": 13,
+    "sigma_J": 2900.0,
+    "basis": "ORCHID rule, method class 'unknown' floor (set E)",
+    "flag": false
+   },
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": {
+    "output": "ACR_CR",
+    "n": 13,
+    "sigma_J": 2900.0,
+    "basis": "ORCHID rule, method class 'unknown' floor (set E)",
+    "flag": false
+   },
+   "dft_HM_MIX_BCC_A2_liu2016.json": {
+    "output": "HM_MIX",
+    "n": 3,
+    "sigma_J": 7200.0,
+    "basis": "ORCHID DFT sigma_effective 7.2 kJ/mol-atom",
+    "flag": false
+   },
+   "dft_HM_MIX_FCC_A1_liu2016.json": {
+    "output": "HM_MIX",
+    "n": 3,
+    "sigma_J": 7200.0,
+    "basis": "ORCHID DFT sigma_effective 7.2 kJ/mol-atom",
+    "flag": false
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json": {
+    "output": "ACR_CR",
+    "n": 6,
+    "sigma_J": 2899.91,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json": {
+    "output": "ACR_CR",
+    "n": 7,
+    "sigma_J": 2899.9,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json": {
+    "output": "ACR_CR",
+    "n": 7,
+    "sigma_J": 2900.23,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-kat1833-1833K.json": {
+    "output": "ACR_CR",
+    "n": 6,
+    "sigma_J": 2899.91,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json": {
+    "output": "ACR_CR",
+    "n": 9,
+    "sigma_J": 2900.23,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-sud1833-1833K.json": {
+    "output": "ACR_CR",
+    "n": 3,
+    "sigma_J": 2900.13,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json": {
+    "output": "ACR_CR",
+    "n": 10,
+    "sigma_J": 2900.11,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json": {
+    "output": "HM_MIX",
+    "n": 19,
+    "sigma_J": 1000.0,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json": {
+    "output": "HM_MIX",
+    "n": 24,
+    "sigma_J": 1000.0,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-dench1963adiabatic.json": {
+    "output": "HM_FORM",
+    "n": 8,
+    "sigma_J": 3500.0,
+    "basis": "ORCHID rule, method class 'unknown' floor (set E)",
+    "flag": false
+   },
+   "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-watson1995enthapies.json": {
+    "output": "HM_FORM",
+    "n": 6,
+    "sigma_J": 3500.0,
+    "basis": "ORCHID rule, method class 'unknown' floor (set E)",
+    "flag": false
+   },
+   "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-dench1963adiabatic.json": {
+    "output": "HM_FORM",
+    "n": 11,
+    "sigma_J": 3500.0,
+    "basis": "ORCHID rule, method class 'unknown' floor (set E)",
+    "flag": false
+   },
+   "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-watson1995enthapies.json": {
+    "output": "HM_FORM",
+    "n": 4,
+    "sigma_J": 3500.0,
+    "basis": "ORCHID rule, method class 'unknown' floor (set E)",
+    "flag": false
+   },
+   "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json": {
+    "output": "HM_MIX",
+    "n": 24,
+    "sigma_J": 1000.0,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json": {
+    "output": "HM_MIX",
+    "n": 28,
+    "sigma_J": 1000.0,
+    "basis": "ORCHID record sigma_effective (Hao export)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": {
+    "output": "ZPF",
+    "n": 24,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": {
+    "output": "ZPF",
+    "n": 5,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": {
+    "output": "ZPF",
+    "n": 21,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": {
+    "output": "ZPF",
+    "n": 5,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": {
+    "output": "ZPF",
+    "n": 49,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": {
+    "output": "ZPF",
+    "n": 28,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": {
+    "output": "ZPF",
+    "n": 7,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": {
+    "output": "ZPF",
+    "n": 9,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-zhang2014impurity.json": {
+    "output": "ZPF",
+    "n": 1,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": {
+    "output": "ZPF",
+    "n": 15,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": {
+    "output": "ZPF",
+    "n": 24,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": {
+    "output": "ZPF",
+    "n": 5,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": {
+    "output": "ZPF",
+    "n": 21,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": {
+    "output": "ZPF",
+    "n": 5,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": {
+    "output": "ZPF",
+    "n": 49,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": {
+    "output": "ZPF",
+    "n": 28,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": {
+    "output": "ZPF",
+    "n": 7,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": {
+    "output": "ZPF",
+    "n": 9,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": {
+    "output": "ZPF",
+    "n": 15,
+    "sigma_J": 1000.0,
+    "basis": "ZPF driving-force scale 1000 J/mol / weight (ORCHID rule: ZPF weight left at 1; not a value sigma)",
+    "flag": false
+   }
+  },
+  "2_within_series": {
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.020000000000000018,
+     "a_Cr": 0.965
+    }
+   ],
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.020000000000000018,
+     "a_Cr": 0.99
+    }
+   ],
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.020000000000000018,
+     "a_Cr": 0.992
+    }
+   ],
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": [
+    {
+     "check": "end-point jump > 3 sigma",
+     "x_Ni": 0.020000000000000018,
+     "a_Cr": 0.998
+    },
+    {
+     "check": "jump vs both neighbours > 3 sigma (in RT ln a)",
+     "x_Ni": 0.050000000000000044,
+     "a_Cr": 0.112,
+     "neighbours_a": [
+      0.998,
+      0.99
+     ],
+     "deviation_J": 25961.48243536273
+    },
+    {
+     "check": "a_Cr rises with x_Ni by > 2 sigma (non-monotonic)",
+     "where": [
+      [
+       0.050000000000000044,
+       0.112,
+       0.99
+      ]
+     ]
+    },
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.020000000000000018,
+     "a_Cr": 0.998
+    }
+   ],
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.020000000000000018,
+     "a_Cr": 0.959
+    }
+   ],
+   "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.4928,
+     "a_Cr": 0.6452
+    }
+   ],
+   "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.2996,
+     "a_Cr": 0.847
+    }
+   ],
+   "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.2996,
+     "a_Cr": 0.7763
+    }
+   ],
+   "hao_CR-NI-ACR_CR-LIQUID-kat1833-1833K.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.3,
+     "a_Cr": 0.6682
+    }
+   ],
+   "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.519,
+     "a_Cr": 0.5653
+    }
+   ],
+   "hao_CR-NI-ACR_CR-LIQUID-sud1833-1833K.json": [
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.4686,
+     "a_Cr": 0.6695
+    }
+   ],
+   "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json": [
+    {
+     "check": "a_Cr rises with x_Ni by > 2 sigma (non-monotonic)",
+     "where": [
+      [
+       0.7868,
+       0.1125,
+       0.1649
+      ]
+     ]
+    },
+    {
+     "check": "a_Cr -> 1 as x_Cr -> 1 (info)",
+     "smallest_x_Ni": 0.2996,
+     "a_Cr": 0.7402
+    }
+   ],
+   "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json": [
+    {
+     "check": "sign change within a mixing-enthalpy series",
+     "n_positive": 6,
+     "x_Ni_positive": [
+      0.6411,
+      0.6529,
+      0.6681,
+      0.685,
+      0.699,
+      0.7118
+     ]
+    }
+   ],
+   "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json": [],
+   "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-dench1963adiabatic.json": [],
+   "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-watson1995enthapies.json": [],
+   "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-dench1963adiabatic.json": [],
+   "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-watson1995enthapies.json": [],
+   "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json": [],
+   "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json": []
+  },
+  "3_partial_vs_integral": {
+   "method": "partial H_Cr = -R d ln(gamma_Cr)/d(1/T) [sign: d(R ln a)/d(1/T) = H_bar], 3 temperatures, vs H_bar_Cr = H + x_Ni dH/dx_Cr from an RK2 fit of each liquid HM_MIX series",
+   "rows": [
+    {
+     "x_Ni": 0.5,
+     "H_bar_Cr_from_activity_T_dependence_J": 106769.82580964573,
+     "sigma_J": 73095.99282647547,
+     "n_T": 3,
+     "from_integral_HM_MIX_J": {
+      "batalin-1960K.json": 12773.67102408409,
+      "sudavtsova-2200K.jso": -4625.668915521693,
+      "saltykov2002enthalpy": -882.0416176975095,
+      "thiedemann1998mixing": -4112.597693978258
+     }
+    },
+    {
+     "x_Ni": 0.6,
+     "H_bar_Cr_from_activity_T_dependence_J": 116238.43122866747,
+     "sigma_J": 73095.99282647547,
+     "n_T": 3,
+     "from_integral_HM_MIX_J": {
+      "batalin-1960K.json": 13332.974713605036,
+      "sudavtsova-2200K.jso": -6848.862673087899,
+      "saltykov2002enthalpy": -2362.9630996348583,
+      "thiedemann1998mixing": -5710.569126496699
+     }
+    },
+    {
+     "x_Ni": 0.7,
+     "H_bar_Cr_from_activity_T_dependence_J": 86388.90483618625,
+     "sigma_J": 73095.99282647547,
+     "n_T": 3,
+     "from_integral_HM_MIX_J": {
+      "batalin-1960K.json": 11258.92484649778,
+      "sudavtsova-2200K.jso": -9577.815091205652,
+      "saltykov2002enthalpy": -4703.709089429996,
+      "thiedemann1998mixing": -7484.746697488075
+     }
+    },
+    {
+     "x_Ni": 0.8,
+     "H_bar_Cr_from_activity_T_dependence_J": 91843.20568428889,
+     "sigma_J": 73095.99282647547,
+     "n_T": 3,
+     "from_integral_HM_MIX_J": {
+      "batalin-1960K.json": 5708.002829249641,
+      "sudavtsova-2200K.jso": -12843.84274233106,
+      "saltykov2002enthalpy": -8086.416782108002,
+      "thiedemann1998mixing": -9399.868481480387
+     }
+    },
+    {
+     "x_Ni": 0.9,
+     "H_bar_Cr_from_activity_T_dependence_J": 124244.62395739254,
+     "sigma_J": 73095.99282647547,
+     "n_T": 3,
+     "from_integral_HM_MIX_J": {
+      "batalin-1960K.json": -4163.3099316520465,
+      "sudavtsova-2200K.jso": -16678.262198920234,
+      "saltykov2002enthalpy": -12693.22337269394,
+      "thiedemann1998mixing": -11420.672553001636
+     }
+    }
+   ],
+   "note": "Three temperatures 100 K apart: the activity-derived partial enthalpy has an uncertainty of order sigma_mu * sqrt(2) / (R-scaled 1/T span) ~ tens of kJ/mol, so only gross disagreement is informative."
+  },
+  "4_basis_units": {
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "BCC_A2"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1173.15,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1173.15
+   },
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "BCC_A2"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1273.15,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1273.15
+   },
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "BCC_A2"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1373.15,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1373.15
+   },
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "BCC_A2"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1448.15,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1448.15
+   },
+   "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "BCC_A2"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1073.15,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1073.15
+   },
+   "dft_HM_MIX_BCC_A2_liu2016.json": {
+    "output": "HM_MIX",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "kJ/mol-atom x1000; 0 K DFT entered at 298.15 K",
+    "T_K": 298.15
+   },
+   "dft_HM_MIX_FCC_A1_liu2016.json": {
+    "output": "HM_MIX",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "kJ/mol-atom x1000; 0 K DFT entered at 298.15 K",
+    "T_K": 298.15
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "LIQUID"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1873.0,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1873.0
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "LIQUID"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1733.0,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1733.0
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "LIQUID"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1783.0,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1783.0
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-kat1833-1833K.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "LIQUID"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1833.0,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1833.0
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "LIQUID"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1873.0,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1873.0
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-sud1833-1833K.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "LIQUID"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1833.0,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1833.0
+   },
+   "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json": {
+    "output": "ACR_CR",
+    "reference_state": {
+     "phases": [
+      "LIQUID"
+     ],
+     "conditions": {
+      "P": 101325,
+      "T": 1873.0,
+      "X_CR": 1.0
+     }
+    },
+    "basis_note": "",
+    "T_K": 1873.0
+   },
+   "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json": {
+    "output": "HM_MIX",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "per mole of atoms ASSUMED (Hao basis being checked)",
+    "T_K": 1960.0
+   },
+   "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json": {
+    "output": "HM_MIX",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "per mole of atoms ASSUMED (Hao basis being checked)",
+    "T_K": 2200.0
+   },
+   "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-dench1963adiabatic.json": {
+    "output": "HM_FORM",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "cal->J conversion by the dataset author",
+    "T_K": 1538.15
+   },
+   "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-watson1995enthapies.json": {
+    "output": "HM_FORM",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "",
+    "T_K": 1583
+   },
+   "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-dench1963adiabatic.json": {
+    "output": "HM_FORM",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "cal->J conversion by the dataset author",
+    "T_K": 1538.15
+   },
+   "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-watson1995enthapies.json": {
+    "output": "HM_FORM",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "",
+    "T_K": 1583
+   },
+   "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json": {
+    "output": "HM_MIX",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "",
+    "T_K": 1729
+   },
+   "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json": {
+    "output": "HM_MIX",
+    "reference_state": "phase end-members (HM_MIX) / SER (HM_FORM)",
+    "basis_note": "",
+    "T_K": 1990
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1398,
+     1721
+    ]
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1073,
+     1548
+    ]
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "wt%->at% conversion by the dataset author",
+    "T_K": [
+     1023,
+     1525
+    ]
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1347,
+     1556
+    ]
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1322,
+     1808.15
+    ]
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     797.15,
+     1386.15
+    ]
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     826,
+     1230
+    ]
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1023.15,
+     1473.15
+    ]
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-zhang2014impurity.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1473.0,
+     1473.0
+    ]
+   },
+   "zpf_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1650,
+     2055
+    ]
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1398,
+     1721
+    ]
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1073,
+     1548
+    ]
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "wt%->at% conversion by the dataset author",
+    "T_K": [
+     1023,
+     1525
+    ]
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1347,
+     1556
+    ]
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1322,
+     1808.15
+    ]
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     797.15,
+     1386.15
+    ]
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     826,
+     1230
+    ]
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1023.15,
+     1473.15
+    ]
+   },
+   "zpf_single_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": {
+    "output": "ZPF",
+    "reference_state": null,
+    "basis_note": "",
+    "T_K": [
+     1650,
+     2055
+    ]
+   }
+  },
+  "5_duplicates": [
+   {
+    "what": "Saltykov 2002 and Thiedemann 1998 liquid HM_MIX in ESPEI-datasets AND in the Hao 2021 figure (ORCHID export)",
+    "treatment": "used once (ESPEI-datasets digitisation), ORCHID sigma"
+   },
+   {
+    "what": "Svechnikov 1962 ZPF digitised from Tang & Hallstedt 2016 Fig. 1 (secondary; the original was not obtained)",
+    "treatment": "used once"
+   },
+   {
+    "what": "Hao 2021 Fig. 16 ZPF marks (ORCHID export c16a/c16b) re-plot Collins 1988, Dench 1963, Karmazin 1982 and others",
+    "treatment": "not used (the ESPEI-datasets digitisations of the originals are used)"
+   },
+   {
+    "what": "set D/E: ZPF regions with one known end enter as (i) single-phase and (ii) null-vertex two-phase observations",
+    "treatment": "two observations of one parent point (PI rule 0.4a); no further double counting claimed"
+   },
+   {
+    "what": "Jette 1934: identical (T, phase, composition) rows within the dataset ('both compositions included')",
+    "pairs": [
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      11,
+      12
+     ],
+     [
+      18,
+      19
+     ],
+     [
+      26,
+      27
+     ]
+    ]
+   }
+  ],
+  "6_cross_source": {
+   "liquid_HM_MIX": [
+    {
+     "x_Ni": 0.55,
+     "values_J": {
+      "sudavtsova-2200K.json": -4807.961448986374,
+      "saltykov2002enthalpy.json": -2900.0,
+      "thiedemann1998mixing.json": -3721.4285714285716
+     },
+     "spread_J": 1907.9614489863743,
+     "spread_over_sigma_pair": 1.3491324788207764,
+     "flag": 0.0
+    },
+    {
+     "x_Ni": 0.65,
+     "values_J": {
+      "batalin-1960K.json": 1312.5762711864406,
+      "sudavtsova-2200K.json": -4739.8325024925225,
+      "saltykov2002enthalpy.json": -2996.153846153846,
+      "thiedemann1998mixing.json": -3213.6666666666665
+     },
+     "spread_J": 6052.408773678963,
+     "spread_over_sigma_pair": 4.279699286381351,
+     "flag": 1.0
+    },
+    {
+     "x_Ni": 0.75,
+     "values_J": {
+      "batalin-1960K.json": -219.4979591836734,
+      "sudavtsova-2200K.json": -3855.3941176470594,
+      "saltykov2002enthalpy.json": -2756.6666666666665,
+      "thiedemann1998mixing.json": -2614.4827586206898
+     },
+     "spread_J": 3635.896158463386,
+     "spread_over_sigma_pair": 2.570966829339578,
+     "flag": 1.0
+    },
+    {
+     "x_Ni": 0.85,
+     "values_J": {
+      "batalin-1960K.json": -1061.4955752212388,
+      "sudavtsova-2200K.json": -2590.165680473373,
+      "saltykov2002enthalpy.json": -2245.1612903225805,
+      "thiedemann1998mixing.json": -1795.0588235294117
+     },
+     "spread_J": 1528.6701052521341,
+     "spread_over_sigma_pair": 1.0809329976209374,
+     "flag": 0.0
+    },
+    {
+     "x_Ni": 0.95,
+     "values_J": {
+      "batalin-1960K.json": -872.8490566037749,
+      "sudavtsova-2200K.json": -1134.0,
+      "saltykov2002enthalpy.json": -740.0000000000001,
+      "thiedemann1998mixing.json": -914.5000000000002
+     },
+     "spread_J": 393.9999999999999,
+     "spread_over_sigma_pair": 0.2786000717874996,
+     "flag": 0.0
+    }
+   ],
+   "liquid_ACR_1873K": [
+    {
+     "x_Ni": 0.55,
+     "a_Cr": {
+      "gilby-1873K.": 0.5319396584440227,
+      "pei-1873K.js": 0.5221603674540682,
+      "sud1873-1873": 0.31970888998035357
+     },
+     "spread_mu_J": 7928.5073759530715,
+     "spread_over_sigma_pair": 1.933207355249647,
+     "flag": 0.0
+    },
+    {
+     "x_Ni": 0.6,
+     "a_Cr": {
+      "gilby-1873K.": 0.43433648780487805,
+      "pei-1873K.js": 0.45258031496063,
+      "sud1873-1873": 0.34137442748091584
+     },
+     "spread_mu_J": 4391.354395042479,
+     "spread_over_sigma_pair": 1.0707436108027193,
+     "flag": 0.0
+    },
+    {
+     "x_Ni": 0.7,
+     "a_Cr": {
+      "gilby-1873K.": 0.3141413658536586,
+      "pei-1873K.js": 0.3134202099737534,
+      "sud1873-1873": 0.2520845360824743
+     },
+     "spread_mu_J": 3427.281540915101,
+     "spread_over_sigma_pair": 0.8356737995229474,
+     "flag": 0.0
+    },
+    {
+     "x_Ni": 0.8,
+     "a_Cr": {
+      "gilby-1873K.": 0.14315671342685363,
+      "pei-1873K.js": 0.16710357995226727,
+      "sud1873-1873": 0.15844490740740733
+     },
+     "spread_mu_J": 2408.735347582926,
+     "spread_over_sigma_pair": 0.5873217580550422,
+     "flag": 0.0
+    },
+    {
+     "x_Ni": 0.85,
+     "a_Cr": {
+      "gilby-1873K.": 0.10331004688546552,
+      "pei-1873K.js": 0.10155586206896557,
+      "sud1873-1873": 0.1142319444444445
+     },
+     "spread_mu_J": 1831.7255762798522,
+     "spread_over_sigma_pair": 0.44662950905528276,
+     "flag": 0.0
+    }
+   ],
+   "solid_HM_FORM": [
+    {
+     "phase": "BCC_A2",
+     "x_Ni~": 0.1,
+     "rows": [
+      [
+       "dench1963a",
+       4559.0,
+       1538.15
+      ],
+      [
+       "dench1963a",
+       5163.0,
+       1538.15
+      ],
+      [
+       "dench1963a",
+       5207.0,
+       1538.15
+      ],
+      [
+       "watson1995",
+       4860.0,
+       1583.0
+      ],
+      [
+       "watson1995",
+       4090.0,
+       1583.0
+      ]
+     ],
+     "spread_J": 1117.0,
+     "flag": 0.0
+    },
+    {
+     "phase": "BCC_A2",
+     "x_Ni~": 0.3,
+     "rows": [
+      [
+       "dench1963a",
+       9053.0,
+       1538.15
+      ],
+      [
+       "dench1963a",
+       8841.0,
+       1538.15
+      ],
+      [
+       "dench1963a",
+       8964.0,
+       1538.15
+      ],
+      [
+       "watson1995",
+       9480.0,
+       1583.0
+      ],
+      [
+       "watson1995",
+       8680.0,
+       1583.0
+      ]
+     ],
+     "spread_J": 800.0,
+     "flag": 0.0
+    },
+    {
+     "phase": "FCC_A1",
+     "x_Ni~": 0.6,
+     "rows": [
+      [
+       "dench1963a",
+       2521.0,
+       1538.15
+      ],
+      [
+       "watson1995",
+       2880.0,
+       1583.0
+      ],
+      [
+       "watson1995",
+       3280.0,
+       1583.0
+      ]
+     ],
+     "spread_J": 759.0,
+     "flag": 0.0
+    },
+    {
+     "phase": "FCC_A1",
+     "x_Ni~": 0.9,
+     "rows": [
+      [
+       "dench1963a",
+       -827.9,
+       1538.15
+      ],
+      [
+       "dench1963a",
+       -906.1,
+       1538.15
+      ],
+      [
+       "watson1995",
+       -1100.0,
+       1583.0
+      ],
+      [
+       "watson1995",
+       -1510.0,
+       1583.0
+      ]
+     ],
+     "spread_J": 682.1,
+     "flag": 0.0
+    }
+   ],
+   "ZPF_FCC_boundary": [
+    {
+     "source": "bechtoldt1961redetermination",
+     "n": 6,
+     "median_dx_vs_others_within_30K": 0.01745000000000002,
+     "flag": 0.0
+    },
+    {
+     "source": "collins1988electron",
+     "n": 10,
+     "median_dx_vs_others_within_30K": 0.015649999999999997,
+     "flag": 0.0
+    },
+    {
+     "source": "jenkins1937some_alloys",
+     "n": 3,
+     "median_dx_vs_others_within_30K": 0.010149999999999992,
+     "flag": 0.0
+    },
+    {
+     "source": "jette1934xray",
+     "n": 12,
+     "median_dx_vs_others_within_30K": -0.048250000000000015,
+     "flag": 1.0
+    },
+    {
+     "source": "karmazin1982lattice",
+     "n": 6,
+     "median_dx_vs_others_within_30K": -0.014499999999999957,
+     "flag": 0.0
+    },
+    {
+     "source": "taylor1952constitution",
+     "n": 5,
+     "median_dx_vs_others_within_30K": 0.030000000000000027,
+     "flag": 0.0
+    },
+    {
+     "source": "zhang2014impurity",
+     "n": 1,
+     "median_dx_vs_others_within_30K": -0.004249999999999976,
+     "flag": 0.0
+    }
+   ]
+  },
+  "7_pull": {
+   "per_dataset": {
+    "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": {
+     "paper_opt": {
+      "loglike": -119.23083183672163,
+      "n": 13,
+      "chi2_half": 3.6425726973915524,
+      "per_point_mean": 0.28019789979935017,
+      "max_point_share": 0.5793085684741013,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -115.84964015674595,
+      "n": 13,
+      "chi2_half": 0.2613810174158634,
+      "per_point_mean": 0.020106232108912568,
+      "max_point_share": 0.29503279278224026,
+      "max_point_index": 1
+     }
+    },
+    "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": {
+     "paper_opt": {
+      "loglike": -119.79480061926519,
+      "n": 13,
+      "chi2_half": 4.206541479935079,
+      "per_point_mean": 0.3235801138411599,
+      "max_point_share": 0.5998040700624893,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -115.94236704435555,
+      "n": 13,
+      "chi2_half": 0.35410790502545064,
+      "per_point_mean": 0.027239069617342355,
+      "max_point_share": 0.6870840113092951,
+      "max_point_index": 3
+     }
+    },
+    "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": {
+     "paper_opt": {
+      "loglike": -119.85413392706991,
+      "n": 13,
+      "chi2_half": 4.2658747877398016,
+      "per_point_mean": 0.3281442144415232,
+      "max_point_share": 0.4806678543248737,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -115.92801192716952,
+      "n": 13,
+      "chi2_half": 0.3397527878394342,
+      "per_point_mean": 0.02613482983380263,
+      "max_point_share": 0.2561117613913558,
+      "max_point_index": 2
+     }
+    },
+    "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": {
+     "paper_opt": {
+      "loglike": -160.19153708653457,
+      "n": 13,
+      "chi2_half": 44.60327794720447,
+      "per_point_mean": 3.43102138055419,
+      "max_point_share": 0.8908601075453993,
+      "max_point_index": 11
+     },
+     "setD_best": {
+      "loglike": -155.87477156598297,
+      "n": 13,
+      "chi2_half": 40.28651242665286,
+      "per_point_mean": 3.0989624943579126,
+      "max_point_share": 0.9897056550848088,
+      "max_point_index": 11
+     }
+    },
+    "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": {
+     "paper_opt": {
+      "loglike": -119.22194284613269,
+      "n": 13,
+      "chi2_half": 3.6336837068025867,
+      "per_point_mean": 0.2795141312925067,
+      "max_point_share": 0.5183608811392112,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -116.10126301807192,
+      "n": 13,
+      "chi2_half": 0.5130038787418298,
+      "per_point_mean": 0.0394618368262946,
+      "max_point_share": 0.2354618313374072,
+      "max_point_index": 1
+     }
+    },
+    "dft_HM_MIX_BCC_A2_liu2016.json": {
+     "paper_opt": {
+      "loglike": -30.114343949279846,
+      "n": 3,
+      "chi2_half": 0.712019434653388,
+      "per_point_mean": 0.23733981155112935,
+      "max_point_share": 0.3988529065763413,
+      "max_point_index": 1
+     },
+     "setD_best": {
+      "loglike": -31.183708405940834,
+      "n": 3,
+      "chi2_half": 1.7813838913143774,
+      "per_point_mean": 0.5937946304381257,
+      "max_point_share": 0.5210865574897282,
+      "max_point_index": 2
+     }
+    },
+    "dft_HM_MIX_FCC_A1_liu2016.json": {
+     "paper_opt": {
+      "loglike": -32.977958005350615,
+      "n": 3,
+      "chi2_half": 3.5756334907241634,
+      "per_point_mean": 1.1918778302413877,
+      "max_point_share": 0.6735768046411883,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -33.57519086325369,
+      "n": 3,
+      "chi2_half": 4.172866348627235,
+      "per_point_mean": 1.3909554495424115,
+      "max_point_share": 0.661411429615017,
+      "max_point_index": 0
+     }
+    },
+    "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json": {
+     "paper_opt": {
+      "loglike": -63.360625866864886,
+      "n": 6,
+      "chi2_half": 10.012379769053393,
+      "per_point_mean": 1.6687299615088989,
+      "max_point_share": 0.439000228520248,
+      "max_point_index": 4
+     },
+     "setD_best": {
+      "loglike": -59.143585090421766,
+      "n": 6,
+      "chi2_half": 5.795338992610268,
+      "per_point_mean": 0.9658898321017113,
+      "max_point_share": 0.3856019964429597,
+      "max_point_index": 0
+     }
+    },
+    "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json": {
+     "paper_opt": {
+      "loglike": -65.60766199575173,
+      "n": 7,
+      "chi2_half": 3.368082146961155,
+      "per_point_mean": 0.48115459242302216,
+      "max_point_share": 0.36937944884393126,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -70.0156471314013,
+      "n": 7,
+      "chi2_half": 7.7760672826107315,
+      "per_point_mean": 1.110866754658676,
+      "max_point_share": 0.447396720793018,
+      "max_point_index": 6
+     }
+    },
+    "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json": {
+     "paper_opt": {
+      "loglike": -70.80558481429233,
+      "n": 7,
+      "chi2_half": 8.565192947636477,
+      "per_point_mean": 1.2235989925194968,
+      "max_point_share": 0.27701068170656923,
+      "max_point_index": 5
+     },
+     "setD_best": {
+      "loglike": -63.631093857637865,
+      "n": 7,
+      "chi2_half": 1.3907019909820026,
+      "per_point_mean": 0.19867171299742895,
+      "max_point_share": 0.35587276700425446,
+      "max_point_index": 1
+     }
+    },
+    "hao_CR-NI-ACR_CR-LIQUID-kat1833-1833K.json": {
+     "paper_opt": {
+      "loglike": -70.25606116681482,
+      "n": 6,
+      "chi2_half": 16.907815069003323,
+      "per_point_mean": 2.8179691781672207,
+      "max_point_share": 0.4008510652305919,
+      "max_point_index": 5
+     },
+     "setD_best": {
+      "loglike": -57.82148659229734,
+      "n": 6,
+      "chi2_half": 4.473240494485843,
+      "per_point_mean": 0.7455400824143071,
+      "max_point_share": 0.34001495168071444,
+      "max_point_index": 5
+     }
+    },
+    "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json": {
+     "paper_opt": {
+      "loglike": -89.63675205798745,
+      "n": 9,
+      "chi2_half": 9.61339108657278,
+      "per_point_mean": 1.0681545651747533,
+      "max_point_share": 0.5178991565960592,
+      "max_point_index": 8
+     },
+     "setD_best": {
+      "loglike": -87.56647619515127,
+      "n": 9,
+      "chi2_half": 7.543115223736587,
+      "per_point_mean": 0.8381239137485097,
+      "max_point_share": 0.23415222460847313,
+      "max_point_index": 1
+     }
+    },
+    "hao_CR-NI-ACR_CR-LIQUID-sud1833-1833K.json": {
+     "paper_opt": {
+      "loglike": -28.79615525128432,
+      "n": 3,
+      "chi2_half": 2.1218060006819544,
+      "per_point_mean": 0.7072686668939848,
+      "max_point_share": 0.48652669091071404,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -32.813586134610595,
+      "n": 3,
+      "chi2_half": 6.139236884008227,
+      "per_point_mean": 2.046412294669409,
+      "max_point_share": 0.3962237166167074,
+      "max_point_index": 2
+     }
+    },
+    "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json": {
+     "paper_opt": {
+      "loglike": -96.49609757156398,
+      "n": 10,
+      "chi2_half": 7.581658072009595,
+      "per_point_mean": 0.7581658072009595,
+      "max_point_share": 0.5371360103310658,
+      "max_point_index": 7
+     },
+     "setD_best": {
+      "loglike": -93.08174679832138,
+      "n": 10,
+      "chi2_half": 4.167307298766985,
+      "per_point_mean": 0.41673072987669846,
+      "max_point_share": 0.21621520473108338,
+      "max_point_index": 2
+     }
+    },
+    "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json": {
+     "paper_opt": {
+      "loglike": -200.77477468809116,
+      "n": 19,
+      "chi2_half": 52.067592256541744,
+      "per_point_mean": 2.7403995924495654,
+      "max_point_share": 0.1950120723621692,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -196.69648927198133,
+      "n": 19,
+      "chi2_half": 47.989306840431965,
+      "per_point_mean": 2.5257529916016823,
+      "max_point_share": 0.19823243111925054,
+      "max_point_index": 0
+     }
+    },
+    "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json": {
+     "paper_opt": {
+      "loglike": -200.65520707418335,
+      "n": 24,
+      "chi2_half": 12.814555581699924,
+      "per_point_mean": 0.5339398159041635,
+      "max_point_share": 0.12540614171049477,
+      "max_point_index": 11
+     },
+     "setD_best": {
+      "loglike": -203.18799511802996,
+      "n": 24,
+      "chi2_half": 15.347343625546511,
+      "per_point_mean": 0.639472651064438,
+      "max_point_share": 0.12240469166870312,
+      "max_point_index": 11
+     }
+    },
+    "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-dench1963adiabatic.json": {
+     "paper_opt": {
+      "loglike": -72.91571689109986,
+      "n": 8,
+      "chi2_half": 0.2800626456424463,
+      "per_point_mean": 0.03500783070530579,
+      "max_point_share": 0.25841999605416965,
+      "max_point_index": 4
+     },
+     "setD_best": {
+      "loglike": -72.78248029924822,
+      "n": 8,
+      "chi2_half": 0.14682605379080912,
+      "per_point_mean": 0.01835325672385114,
+      "max_point_share": 0.342779623057433,
+      "max_point_index": 7
+     }
+    },
+    "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-watson1995enthapies.json": {
+     "paper_opt": {
+      "loglike": -54.77412799528588,
+      "n": 6,
+      "chi2_half": 0.29738731119282,
+      "per_point_mean": 0.049564551865470007,
+      "max_point_share": 0.48085735179534816,
+      "max_point_index": 1
+     },
+     "setD_best": {
+      "loglike": -54.653568963244595,
+      "n": 6,
+      "chi2_half": 0.1768282791515329,
+      "per_point_mean": 0.029471379858588817,
+      "max_point_share": 0.5019410805412444,
+      "max_point_index": 2
+     }
+    },
+    "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-dench1963adiabatic.json": {
+     "paper_opt": {
+      "loglike": -100.26701448227789,
+      "n": 11,
+      "chi2_half": 0.39298989477392354,
+      "per_point_mean": 0.03572635407035669,
+      "max_point_share": 0.436496082867652,
+      "max_point_index": 10
+     },
+     "setD_best": {
+      "loglike": -99.95903201581585,
+      "n": 11,
+      "chi2_half": 0.08500742831190844,
+      "per_point_mean": 0.007727948028355313,
+      "max_point_share": 0.5050114018298204,
+      "max_point_index": 10
+     }
+    },
+    "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-watson1995enthapies.json": {
+     "paper_opt": {
+      "loglike": -36.367553022608206,
+      "n": 4,
+      "chi2_half": 0.04972589987949956,
+      "per_point_mean": 0.01243147496987489,
+      "max_point_share": 0.6190006342832614,
+      "max_point_index": 1
+     },
+     "setD_best": {
+      "loglike": -36.39304584716435,
+      "n": 4,
+      "chi2_half": 0.07521872443564445,
+      "per_point_mean": 0.018804681108911113,
+      "max_point_share": 0.5088516648515383,
+      "max_point_index": 1
+     }
+    },
+    "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json": {
+     "paper_opt": {
+      "loglike": -189.25154481958322,
+      "n": 24,
+      "chi2_half": 1.410893327099788,
+      "per_point_mean": 0.05878722196249117,
+      "max_point_share": 0.09718777424666615,
+      "max_point_index": 7
+     },
+     "setD_best": {
+      "loglike": -189.18397101254354,
+      "n": 24,
+      "chi2_half": 1.3433195200601056,
+      "per_point_mean": 0.055971646669171066,
+      "max_point_share": 0.13878739252567435,
+      "max_point_index": 7
+     }
+    },
+    "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json": {
+     "paper_opt": {
+      "loglike": -219.9736862736516,
+      "n": 28,
+      "chi2_half": 0.8262595324209182,
+      "per_point_mean": 0.029509269015032792,
+      "max_point_share": 0.14466365049178576,
+      "max_point_index": 21
+     },
+     "setD_best": {
+      "loglike": -220.8167947134374,
+      "n": 28,
+      "chi2_half": 1.6693679722067083,
+      "per_point_mean": 0.05962028472166815,
+      "max_point_share": 0.12264969108137835,
+      "max_point_index": 21
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": {
+     "paper_opt": {
+      "loglike": -375.761160968711,
+      "n": 48,
+      "chi2_half": 0.07985798374417054,
+      "per_point_mean": 0.0016637079946702196,
+      "max_point_share": 0.1894145157226204,
+      "max_point_index": 3
+     },
+     "setD_best": {
+      "loglike": -375.82398331426197,
+      "n": 48,
+      "chi2_half": 0.1426803292951437,
+      "per_point_mean": 0.002972506860315494,
+      "max_point_share": 0.34715223928415406,
+      "max_point_index": 9
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": {
+     "paper_opt": {
+      "loglike": -78.51478378572051,
+      "n": 10,
+      "chi2_half": 0.24784566385241885,
+      "per_point_mean": 0.024784566385241884,
+      "max_point_share": 0.7903767361080961,
+      "max_point_index": 3
+     },
+     "setD_best": {
+      "loglike": -78.51753385364965,
+      "n": 10,
+      "chi2_half": 0.2505957317815704,
+      "per_point_mean": 0.02505957317815704,
+      "max_point_share": 0.34397370217607565,
+      "max_point_index": 0
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": {
+     "paper_opt": {
+      "loglike": -329.7978267548596,
+      "n": 42,
+      "chi2_half": 1.076686643013641,
+      "per_point_mean": 0.02563539626222955,
+      "max_point_share": 0.3885723262449173,
+      "max_point_index": 33
+     },
+     "setD_best": {
+      "loglike": -329.48040171453647,
+      "n": 42,
+      "chi2_half": 0.7592616026904861,
+      "per_point_mean": 0.018077657206916335,
+      "max_point_share": 0.11415998182037507,
+      "max_point_index": 2
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": {
+     "paper_opt": {
+      "loglike": -78.28434014425176,
+      "n": 10,
+      "chi2_half": 0.01740202238366896,
+      "per_point_mean": 0.001740202238366896,
+      "max_point_share": 0.9936406184219847,
+      "max_point_index": 9
+     },
+     "setD_best": {
+      "loglike": -78.27076227337372,
+      "n": 10,
+      "chi2_half": 0.0038241515056285807,
+      "per_point_mean": 0.00038241515056285807,
+      "max_point_share": 0.2525212184422594,
+      "max_point_index": 9
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": {
+     "paper_opt": {
+      "loglike": -767.3294612741721,
+      "n": 98,
+      "chi2_half": 0.31346767986479485,
+      "per_point_mean": 0.003198649794538723,
+      "max_point_share": 0.47087820324365276,
+      "max_point_index": 93
+     },
+     "setD_best": {
+      "loglike": -771.1668162906827,
+      "n": 98,
+      "chi2_half": 4.150822696375462,
+      "per_point_mean": 0.042355333636484305,
+      "max_point_share": 0.053207810506023474,
+      "max_point_index": 7
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": {
+     "paper_opt": {
+      "loglike": -439.6137200530588,
+      "n": 56,
+      "chi2_half": 1.3188665705974585,
+      "per_point_mean": 0.0235511887606689,
+      "max_point_share": 0.32516050533722085,
+      "max_point_index": 15
+     },
+     "setD_best": {
+      "loglike": -439.4051403496775,
+      "n": 56,
+      "chi2_half": 1.110286867216206,
+      "per_point_mean": 0.019826551200289394,
+      "max_point_share": 0.07609391782700407,
+      "max_point_index": 5
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": {
+     "paper_opt": {
+      "loglike": -109.57509692620658,
+      "n": 14,
+      "chi2_half": 0.0013835555912546664,
+      "per_point_mean": 9.882539937533332e-05,
+      "max_point_share": 0.500186799371886,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -110.04717716030261,
+      "n": 14,
+      "chi2_half": 0.4734637896872642,
+      "per_point_mean": 0.033818842120518874,
+      "max_point_share": 0.1761633045480553,
+      "max_point_index": 8
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": {
+     "paper_opt": {
+      "loglike": -140.94146519456663,
+      "n": 18,
+      "chi2_half": 0.060976575204039436,
+      "per_point_mean": 0.0033875875113355243,
+      "max_point_share": 0.7232615207403662,
+      "max_point_index": 17
+     },
+     "setD_best": {
+      "loglike": -141.21560506257435,
+      "n": 18,
+      "chi2_half": 0.3351164432117864,
+      "per_point_mean": 0.01861758017843258,
+      "max_point_share": 0.2504430295819323,
+      "max_point_index": 8
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-zhang2014impurity.json": {
+     "paper_opt": {
+      "loglike": -15.653436118796044,
+      "n": 2,
+      "chi2_half": 4.849442242527877e-05,
+      "per_point_mean": 2.4247211212639385e-05,
+      "max_point_share": 0.8907991283302116,
+      "max_point_index": 1
+     },
+     "setD_best": {
+      "loglike": -15.857805444633048,
+      "n": 2,
+      "chi2_half": 0.20441782025942884,
+      "per_point_mean": 0.10220891012971442,
+      "max_point_share": 0.5886079808823581,
+      "max_point_index": 1
+     }
+    },
+    "zpf_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": {
+     "paper_opt": {
+      "loglike": -234.82884127231162,
+      "n": 30,
+      "chi2_half": 0.028026906707303782,
+      "per_point_mean": 0.0009342302235767927,
+      "max_point_share": 0.7569934361987545,
+      "max_point_index": 29
+     },
+     "setD_best": {
+      "loglike": -235.20489133967047,
+      "n": 30,
+      "chi2_half": 0.4040769740661925,
+      "per_point_mean": 0.013469232468873082,
+      "max_point_share": 0.2542977184611455,
+      "max_point_index": 7
+     }
+    },
+    "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": {
+     "paper_opt": {
+      "loglike": -187.84068381170812,
+      "n": 24,
+      "chi2_half": 3.2319224718251325e-05,
+      "per_point_mean": 1.346634363260472e-06,
+      "max_point_share": 0.7834172845430449,
+      "max_point_index": 22
+     },
+     "setD_best": {
+      "loglike": -187.850978697206,
+      "n": 24,
+      "chi2_half": 0.010327204722565693,
+      "per_point_mean": 0.0004303001967735705,
+      "max_point_share": 0.35342044444086484,
+      "max_point_index": 6
+     }
+    },
+    "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": {
+     "paper_opt": {
+      "loglike": -39.13346947174738,
+      "n": 5,
+      "chi2_half": 4.1081333280111934e-07,
+      "per_point_mean": 8.216266656022387e-08,
+      "max_point_share": 0.8273681278690463,
+      "max_point_index": 4
+     },
+     "setD_best": {
+      "loglike": -39.38405526579282,
+      "n": 5,
+      "chi2_half": 0.2505862048587718,
+      "per_point_mean": 0.050117240971754365,
+      "max_point_share": 0.3439867795556035,
+      "max_point_index": 0
+     }
+    },
+    "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": {
+     "paper_opt": {
+      "loglike": -164.3605847262125,
+      "n": 21,
+      "chi2_half": 1.4670289467274591e-05,
+      "per_point_mean": 6.985852127273615e-07,
+      "max_point_share": 0.8667065179055936,
+      "max_point_index": 10
+     },
+     "setD_best": {
+      "loglike": -164.90168327680237,
+      "n": 21,
+      "chi2_half": 0.5411132208793751,
+      "per_point_mean": 0.025767296232351196,
+      "max_point_share": 0.16018328034786056,
+      "max_point_index": 1
+     }
+    },
+    "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": {
+     "paper_opt": {
+      "loglike": -39.133474193786235,
+      "n": 5,
+      "chi2_half": 5.132852186185915e-06,
+      "per_point_mean": 1.026570437237183e-06,
+      "max_point_share": 0.9292406600465765,
+      "max_point_index": 3
+     },
+     "setD_best": {
+      "loglike": -39.13492560443454,
+      "n": 5,
+      "chi2_half": 0.0014565435004947444,
+      "per_point_mean": 0.00029130870009894886,
+      "max_point_share": 0.4387132475813971,
+      "max_point_index": 4
+     }
+    },
+    "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": {
+     "paper_opt": {
+      "loglike": -383.5196593293565,
+      "n": 49,
+      "chi2_half": 0.01166253220276366,
+      "per_point_mean": 0.00023801086128089101,
+      "max_point_share": 0.2714358449160924,
+      "max_point_index": 20
+     },
+     "setD_best": {
+      "loglike": -385.2222641039048,
+      "n": 49,
+      "chi2_half": 1.7142673067511274,
+      "per_point_mean": 0.03498504707655362,
+      "max_point_share": 0.11411938156342409,
+      "max_point_index": 27
+     }
+    },
+    "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": {
+     "paper_opt": {
+      "loglike": -219.2250855659837,
+      "n": 28,
+      "chi2_half": 0.07765882475305765,
+      "per_point_mean": 0.0027735294554663446,
+      "max_point_share": 0.1077761306932472,
+      "max_point_index": 26
+     },
+     "setD_best": {
+      "loglike": -219.71152846579992,
+      "n": 28,
+      "chi2_half": 0.5641017245692714,
+      "per_point_mean": 0.020146490163188265,
+      "max_point_share": 0.14923325099079507,
+      "max_point_index": 18
+     }
+    },
+    "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": {
+     "paper_opt": {
+      "loglike": -54.78813387505733,
+      "n": 7,
+      "chi2_half": 0.0012771897496638687,
+      "per_point_mean": 0.0001824556785234098,
+      "max_point_share": 0.5418429353389966,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -55.260309390888814,
+      "n": 7,
+      "chi2_half": 0.4734527055811506,
+      "per_point_mean": 0.06763610079730722,
+      "max_point_share": 0.1761674287461809,
+      "max_point_index": 4
+     }
+    },
+    "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": {
+     "paper_opt": {
+      "loglike": -70.44024883074182,
+      "n": 9,
+      "chi2_half": 4.5210605439277725e-06,
+      "per_point_mean": 5.023400604364192e-07,
+      "max_point_share": 0.8008420717490143,
+      "max_point_index": 6
+     },
+     "setD_best": {
+      "loglike": -70.67281318793891,
+      "n": 9,
+      "chi2_half": 0.23256887825763034,
+      "per_point_mean": 0.025840986473070038,
+      "max_point_share": 0.3608719185879626,
+      "max_point_index": 4
+     }
+    },
+    "zpf_single_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": {
+     "paper_opt": {
+      "loglike": -117.40418308126159,
+      "n": 15,
+      "chi2_half": 0.0037758984594662166,
+      "per_point_mean": 0.0002517265639644144,
+      "max_point_share": 0.7150253159443709,
+      "max_point_index": 0
+     },
+     "setD_best": {
+      "loglike": -117.4186818009385,
+      "n": 15,
+      "chi2_half": 0.018274618136355208,
+      "per_point_mean": 0.0012183078757570139,
+      "max_point_share": 0.4967585259466701,
+      "max_point_index": 9
+     }
+    }
+   },
+   "dominating_points": [
+    {
+     "dataset": "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json",
+     "at": "paper_opt",
+     "index": 11,
+     "share": 0.8908601075453993,
+     "chi2_half": 39.73528098892391
+    },
+    {
+     "dataset": "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json",
+     "at": "setD_best",
+     "index": 11,
+     "share": 0.9897056550848088,
+     "chi2_half": 39.87178917230276
+    },
+    {
+     "dataset": "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json",
+     "at": "paper_opt",
+     "index": 8,
+     "share": 0.5178991565960592,
+     "chi2_half": 4.978767135764116
+    },
+    {
+     "dataset": "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json",
+     "at": "paper_opt",
+     "index": 7,
+     "share": 0.5371360103310658,
+     "chi2_half": 4.0723815684935545
+    }
+   ]
+  }
+ },
+ "source_checks": [
+  {
+   "dataset": "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json",
+   "T_K": 1448.15,
+   "x_Cr": 0.95,
+   "a_Cr": 0.112,
+   "source": "Pugliese & Fitterer 1970, Metall. Trans. 1, 1997, Table II (local copy ~/data/private/crni-sources-20261105/), checked by the coordinator",
+   "finding": "printed as 0.112, consistent with the source (the ESPEI file transcribes it faithfully); internally inconsistent with the printed cell potential (1.236 V vs 1.234 V for neighbouring alloys with a_Cr 0.98-0.99), likely a misprint in the paper",
+   "action": "flag only; data unchanged; stays in set E at its ORCHID-rule sigma (2.9 kJ/mol); fit reported with and without it only if it changes the topology"
+  }
+ ],
+ "summary": {
+  "1_sigma": "set E: no observation at a software default (ZPF at ORCHID's rule, weight 1; ORCHID records at sigma_effective; non-ORCHID data at the ORCHID method-class 'unknown' floors). Sets C/D had Pugliese, Dench, Watson at ESPEI's 500 J/mol default.",
+  "2_within_series": [
+   "Pugliese 1448 K x_Cr 0.95 a_Cr 0.112 between 0.998 and 0.99 (26 kJ/mol in RT ln gamma, 9 sigma; see source_checks)",
+   "Sudavtsova 1873 K liquid ACR: a_Cr rises from 0.1125 (x_Ni 0.787) to 0.1649 (x_Ni 0.793), non-monotonic beyond 2 sigma",
+   "Batalin 1960 K liquid HM_MIX: positive for x_Ni 0.64-0.71 within an otherwise negative series"
+  ],
+  "3_partial_vs_integral": "Katayama 1733/1783/1833 K give H_bar_Cr = +86 to +124 kJ/mol (sigma ~73 kJ/mol from three temperatures) against -17 to +13 kJ/mol from the integral liquid HM_MIX series: 1.2-1.9 sigma, not informative.",
+  "4_basis_units": "Hao liquid HM_MIX per mole of atoms assumed (being checked); DFT 0 K values entered at 298.15 K; Pugliese referenced to BCC Cr, Hao ACR to liquid Cr.",
+  "5_duplicates": "Saltykov/Thiedemann used once; Svechnikov is a secondary digitisation; Hao Fig. 16 ZPF re-plots not used; Jette 1934 has 6 identical row pairs within its file (counted twice); set D/E (i)+(ii) observations share parents by rule.",
+  "6_cross_source": "liquid HM_MIX sources disagree beyond their sigmas at x_Ni 0.65 (spread 6.1 kJ/mol) and 0.75 (3.6 kJ/mol), Batalin against the others; liquid ACR at 1873 K and solid HM_FORM (Dench vs Watson) agree within sigma; ZPF FCC boundary: Jette 1934 lies 0.048 Cr-richer than the other sources within 30 K (flag), Taylor 1952 +0.030 (just below the flag).",
+  "7_pull": "Pugliese 1448 K x_Cr 0.95 carries 89-99 % of its dataset's chi2/2 (40 units at set E's sigma); per-point pull highest for Pugliese-3, Katayama 1833 K, Batalin, Gilby at the paper optimum."
+ }
+}

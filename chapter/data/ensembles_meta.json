@@ -1,0 +1,217 @@
+{
+ "N_joint": 2000,
+ "N_laplace": 1000,
+ "rebuild_400_identical": true,
+ "seed_indep": 20261106,
+ "seed_laplace": 20261107,
+ "curvature_file": "inputs/setE_spark/curvature_setE_run1_b557.json",
+ "laplace_note": "Init-ball covariance for mcmc: curvature.py's -H, with the 3 softest eigenvalues replaced by\nline-scan curvatures kappa_k = -(d(+1)+d(-1)) along those eigenvectors (soft_scan.py), because the\nfinite-difference Hessian does not resolve curvatures below ~0.1 (its step-size disagreement is ~6%\nof max|H| ~ 32). Only the initial walker ball uses this; posterior and analysis rules are unchanged.\nusage: repair_cov.py <curvature_json> <soft_scan_json> <out_json>",
+ "eig_negH_q_fd": [
+  -0.00512555792235633,
+  0.009314883306473686,
+  0.028780249674103538,
+  0.09200761609783205,
+  0.9006217331210424,
+  1.425699948162938,
+  2.199426290104285,
+  4.887787298771207,
+  25.318749215910227,
+  32.50323021162092
+ ],
+ "eig_negH_q_used": [
+  0.03838917008124554,
+  0.007950126579089556,
+  0.036794277723856794,
+  0.09200761609783205,
+  0.9006217331210424,
+  1.425699948162938,
+  2.199426290104285,
+  4.887787298771207,
+  25.318749215910227,
+  32.50323021162092
+ ],
+ "candidates": [
+  {
+   "i": 0,
+   "kind": "x_bcc_boundary",
+   "T": 1300.0,
+   "x_Ni": null
+  },
+  {
+   "i": 1,
+   "kind": "x_bcc_boundary",
+   "T": 1350.0,
+   "x_Ni": null
+  },
+  {
+   "i": 2,
+   "kind": "x_bcc_boundary",
+   "T": 1400.0,
+   "x_Ni": null
+  },
+  {
+   "i": 3,
+   "kind": "x_bcc_boundary",
+   "T": 1450.0,
+   "x_Ni": null
+  },
+  {
+   "i": 4,
+   "kind": "x_bcc_boundary",
+   "T": 1500.0,
+   "x_Ni": null
+  },
+  {
+   "i": 5,
+   "kind": "x_bcc_boundary",
+   "T": 1550.0,
+   "x_Ni": null
+  },
+  {
+   "i": 6,
+   "kind": "x_fcc_boundary",
+   "T": 1300.0,
+   "x_Ni": null
+  },
+  {
+   "i": 7,
+   "kind": "x_fcc_boundary",
+   "T": 1350.0,
+   "x_Ni": null
+  },
+  {
+   "i": 8,
+   "kind": "x_fcc_boundary",
+   "T": 1400.0,
+   "x_Ni": null
+  },
+  {
+   "i": 9,
+   "kind": "x_fcc_boundary",
+   "T": 1450.0,
+   "x_Ni": null
+  },
+  {
+   "i": 10,
+   "kind": "x_fcc_boundary",
+   "T": 1500.0,
+   "x_Ni": null
+  },
+  {
+   "i": 11,
+   "kind": "x_fcc_boundary",
+   "T": 1550.0,
+   "x_Ni": null
+  },
+  {
+   "i": 12,
+   "kind": "mu_Cr_bcc_field",
+   "T": 1300.0,
+   "x_Ni": 0.1
+  },
+  {
+   "i": 13,
+   "kind": "mu_Cr_bcc_field",
+   "T": 1300.0,
+   "x_Ni": 0.2
+  },
+  {
+   "i": 14,
+   "kind": "mu_Cr_bcc_field",
+   "T": 1300.0,
+   "x_Ni": 0.3
+  },
+  {
+   "i": 15,
+   "kind": "mu_Cr_bcc_field",
+   "T": 1400.0,
+   "x_Ni": 0.1
+  },
+  {
+   "i": 16,
+   "kind": "mu_Cr_bcc_field",
+   "T": 1400.0,
+   "x_Ni": 0.2
+  },
+  {
+   "i": 17,
+   "kind": "mu_Cr_bcc_field",
+   "T": 1400.0,
+   "x_Ni": 0.3
+  },
+  {
+   "i": 18,
+   "kind": "mu_Cr_bcc_field",
+   "T": 1500.0,
+   "x_Ni": 0.1
+  },
+  {
+   "i": 19,
+   "kind": "mu_Cr_bcc_field",
+   "T": 1500.0,
+   "x_Ni": 0.2
+  },
+  {
+   "i": 20,
+   "kind": "mu_Cr_bcc_field",
+   "T": 1500.0,
+   "x_Ni": 0.3
+  },
+  {
+   "i": 21,
+   "kind": "mu_Cr_fcc_field",
+   "T": 1300.0,
+   "x_Ni": 0.6
+  },
+  {
+   "i": 22,
+   "kind": "mu_Cr_fcc_field",
+   "T": 1300.0,
+   "x_Ni": 0.7
+  },
+  {
+   "i": 23,
+   "kind": "mu_Cr_fcc_field",
+   "T": 1300.0,
+   "x_Ni": 0.8
+  },
+  {
+   "i": 24,
+   "kind": "mu_Cr_fcc_field",
+   "T": 1400.0,
+   "x_Ni": 0.6
+  },
+  {
+   "i": 25,
+   "kind": "mu_Cr_fcc_field",
+   "T": 1400.0,
+   "x_Ni": 0.7
+  },
+  {
+   "i": 26,
+   "kind": "mu_Cr_fcc_field",
+   "T": 1400.0,
+   "x_Ni": 0.8
+  },
+  {
+   "i": 27,
+   "kind": "mu_Cr_fcc_field",
+   "T": 1500.0,
+   "x_Ni": 0.6
+  },
+  {
+   "i": 28,
+   "kind": "mu_Cr_fcc_field",
+   "T": 1500.0,
+   "x_Ni": 0.7
+  },
+  {
+   "i": 29,
+   "kind": "mu_Cr_fcc_field",
+   "T": 1500.0,
+   "x_Ni": 0.8
+  }
+ ],
+ "wall_s": 6175.684378862381,
+ "nproc": 3
+}

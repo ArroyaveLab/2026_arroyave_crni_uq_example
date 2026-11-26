@@ -1,0 +1,8 @@
+{"set": "setC_uncertainty", "start": "near_opt_0", "logpost": -4839.28195518934, "grad_norm_q": 2.765877034816274e-05, "nfev": 80, "seconds": 268.6013866662979, "n_nonfinite": 0}
+{"set": "setC_uncertainty", "start": "paper_start", "logpost": -4808.80084476872, "grad_norm_q": 9.361499023582022, "nfev": 133, "seconds": 480.32195087429136, "n_nonfinite": 0}
+{"set": "setC_uncertainty", "start": "near_opt_1", "logpost": -4839.358954101016, "grad_norm_q": 1.472390314825783, "nfev": 148, "seconds": 548.4898731671274, "n_nonfinite": 0}
+{"set": "setC_uncertainty", "start": "paper_opt", "logpost": -4840.037781828083, "grad_norm_q": 0.31128807062641545, "nfev": 168, "seconds": 645.5629265001044, "n_nonfinite": 0}
+{"set": "setC_uncertainty", "start": "near_start_1", "logpost": -4839.281955189798, "grad_norm_q": 3.129611372009944e-05, "nfev": 54, "seconds": 282.5493930419907, "n_nonfinite": 0}
+{"set": "setC_uncertainty", "start": "near_start_2", "logpost": -4840.202447271897, "grad_norm_q": 0.00043471807395275007, "nfev": 74, "seconds": 354.24850712530315, "n_nonfinite": 0}
+{"set": "setC_uncertainty", "start": "near_start_0", "logpost": -4839.59256154295, "grad_norm_q": 11.030004095537224, "nfev": 191, "seconds": 831.2983289994299, "n_nonfinite": 0}
+{"set": "setC_uncertainty", "start": "near_opt_2", "logpost": -4803.001642907559, "grad_norm_q": 0.9491823787064707, "nfev": 403, "seconds": 1557.9026774577796, "n_nonfinite": 0}

@@ -1,0 +1,94 @@
+{
+ "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": [
+  [
+   "T=1073.15 x_Cr=0.35",
+   0.892
+  ],
+  [
+   "T=1073.15 x_Cr=0.25",
+   0.18
+  ],
+  [
+   "T=1073.15 x_Cr=0.4",
+   0.164
+  ],
+  [
+   "T=1073.15 x_Cr=0.45",
+   0.011
+  ]
+ ],
+ "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": [
+  [
+   "T=1173.15 x_Cr=0.35",
+   0.698
+  ],
+  [
+   "T=1173.15 x_Cr=0.25",
+   0.176
+  ],
+  [
+   "T=1173.15 x_Cr=0.4",
+   0.124
+  ],
+  [
+   "T=1173.15 x_Cr=0.98",
+   -0.0
+  ]
+ ],
+ "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": [
+  [
+   "T=1273.15 x_Cr=0.35",
+   0.551
+  ],
+  [
+   "T=1273.15 x_Cr=0.4",
+   0.373
+  ],
+  [
+   "T=1273.15 x_Cr=0.25",
+   0.182
+  ],
+  [
+   "T=1273.15 x_Cr=0.95",
+   0.0
+  ]
+ ],
+ "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": [
+  [
+   "T=1373.15 x_Cr=0.4",
+   0.468
+  ],
+  [
+   "T=1373.15 x_Cr=0.35",
+   0.46
+  ],
+  [
+   "T=1373.15 x_Cr=0.25",
+   0.132
+  ],
+  [
+   "T=1373.15 x_Cr=0.75",
+   0.005
+  ]
+ ],
+ "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": [
+  [
+   "T=1448.15 x_Cr=0.35",
+   0.344
+  ],
+  [
+   "T=1448.15 x_Cr=0.4",
+   0.266
+  ],
+  [
+   "T=1448.15 x_Cr=0.25",
+   0.145
+  ],
+  [
+   "T=1448.15 x_Cr=0.75",
+   0.028
+  ]
+ ],
+ "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": [],
+ "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": []
+}

@@ -1,0 +1,20 @@
+{
+ "paper_start": {
+  "parts": {
+   "ActivityResidual": -1621.8046806229606,
+   "FixedConfigurationPropertyResidual": -1107.5403680075863,
+   "ZPFResidual": -1377.3095481570483,
+   "EquilibriumPropertyResidual": 0.0
+  },
+  "s": 1.9597180001437664
+ },
+ "paper_opt": {
+  "parts": {
+   "ActivityResidual": -1514.2347122653932,
+   "FixedConfigurationPropertyResidual": -1114.4493507019233,
+   "ZPFResidual": -1325.6420267295239,
+   "EquilibriumPropertyResidual": 0.0
+  },
+  "s": 2.0520809572190046
+ }
+}

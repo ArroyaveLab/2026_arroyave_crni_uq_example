@@ -1,0 +1,8 @@
+{
+  "title": "Cr-Ni uncertainty-analysis example: data and scripts",
+  "upload_type": "dataset",
+  "description": "Processed results and plotting scripts for the Cr-Ni computational example of the chapter 'Beyond Quantification: Propagating and Exploiting CALPHAD Uncertainty in Materials Design' (Uncertainty Quantification in Multiscale Materials Modeling, 2nd ed., Elsevier). Includes the sampled parameter vectors, the independently recombined and local Gaussian ensembles, FCC-frequency maps, phase-boundary percentiles, sampling diagnostics and the ranking of 30 candidate measurements.",
+  "creators": [{"name": "Arróyave, Raymundo", "affiliation": "Texas A&M University"}],
+  "license": "CC-BY-4.0",
+  "keywords": ["CALPHAD", "uncertainty quantification", "Cr-Ni", "ESPEI", "pycalphad"]
+}

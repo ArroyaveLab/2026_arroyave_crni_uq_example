@@ -1,0 +1,740 @@
+{
+ "datasets": {
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 24,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 24,
+   "role": "(i) single-phase, same parents",
+   "parent_dataset": "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json",
+   "parent_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ]
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 5,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 5,
+   "role": "(i) single-phase, same parents",
+   "parent_dataset": "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json",
+   "parent_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 21,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 21,
+   "role": "(i) single-phase, same parents",
+   "parent_dataset": "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json",
+   "parent_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 5,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 5,
+   "role": "(i) single-phase, same parents",
+   "parent_dataset": "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json",
+   "parent_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 49,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 49,
+   "role": "(i) single-phase, same parents",
+   "parent_dataset": "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json",
+   "parent_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ]
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 28,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 28,
+   "role": "(i) single-phase, same parents",
+   "parent_dataset": "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json",
+   "parent_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ]
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 7,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 7,
+   "role": "(i) single-phase, same parents",
+   "parent_dataset": "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json",
+   "parent_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 9,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_single_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 9,
+   "role": "(i) single-phase, same parents",
+   "parent_dataset": "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json",
+   "parent_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-zhang2014impurity.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 1,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 15,
+   "role": "(ii) two-phase, null vertex"
+  },
+  "zpf_single_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": {
+   "output": "ZPF",
+   "weight": 1.0,
+   "n": 15,
+   "role": "(i) single-phase, same parents",
+   "parent_dataset": "zpf_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json",
+   "parent_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": {
+   "output": "ACR_CR",
+   "weight": 1.0
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": {
+   "output": "ACR_CR",
+   "weight": 1.0
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": {
+   "output": "ACR_CR",
+   "weight": 1.0
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": {
+   "output": "ACR_CR",
+   "weight": 1.0
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": {
+   "output": "ACR_CR",
+   "weight": 1.0
+  },
+  "dft_HM_MIX_BCC_A2_liu2016.json": {
+   "output": "HM_MIX",
+   "weight": 0.06944444444444445
+  },
+  "dft_HM_MIX_FCC_A1_liu2016.json": {
+   "output": "HM_MIX",
+   "weight": 0.06944444444444445
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json": {
+   "output": "ACR_CR",
+   "weight": 0.172419
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json": {
+   "output": "ACR_CR",
+   "weight": 0.17242
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json": {
+   "output": "ACR_CR",
+   "weight": 0.1724
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-kat1833-1833K.json": {
+   "output": "ACR_CR",
+   "weight": 0.172419
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json": {
+   "output": "ACR_CR",
+   "weight": 0.1724
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-sud1833-1833K.json": {
+   "output": "ACR_CR",
+   "weight": 0.172406
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json": {
+   "output": "ACR_CR",
+   "weight": 0.172407
+  },
+  "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json": {
+   "output": "HM_MIX",
+   "weight": 0.5
+  },
+  "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json": {
+   "output": "HM_MIX",
+   "weight": 0.5
+  },
+  "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-dench1963adiabatic.json": {
+   "output": "HM_FORM",
+   "weight": 1.0
+  },
+  "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-watson1995enthapies.json": {
+   "output": "HM_FORM",
+   "weight": 1.0
+  },
+  "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-dench1963adiabatic.json": {
+   "output": "HM_FORM",
+   "weight": 1.0
+  },
+  "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-watson1995enthapies.json": {
+   "output": "HM_FORM",
+   "weight": 1.0
+  },
+  "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json": {
+   "output": "HM_MIX",
+   "weight": 0.5
+  },
+  "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json": {
+   "output": "HM_MIX",
+   "weight": 0.5
+  }
+ },
+ "hinge": {
+  "n_cells": 290,
+  "margin": 100.0,
+  "sigma": 1000.0,
+  "confidence_option_C": 0.5,
+  "by_expected_and_penalized": {
+   "BCC_A2 | not FCC_A1": 18,
+   "BCC_A2 | not LIQUID": 55,
+   "FCC_A1 | not LIQUID": 45,
+   "LIQUID | not BCC_A2": 15,
+   "LIQUID | not FCC_A1": 17,
+   "FCC_A1 | not BCC_A2": 13,
+   "FCC_A1+BCC_A2 | not LIQUID": 1,
+   "LIQUID | not BCC_A2+FCC_A1": 97,
+   "BCC_A2 | not FCC_A1+LIQUID": 14,
+   "FCC_A1 | not BCC_A2+LIQUID": 15
+  },
+  "liquid_states_without_exclusion": [
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json",
+    "index": 1,
+    "T": 1873.0,
+    "x_Ni": 0.5982,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json",
+    "index": 2,
+    "T": 1873.0,
+    "x_Ni": 0.7007,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json",
+    "index": 3,
+    "T": 1873.0,
+    "x_Ni": 0.8005,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json",
+    "index": 5,
+    "T": 1873.0,
+    "x_Ni": 0.9695,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json",
+    "index": 0,
+    "T": 1733.0,
+    "x_Ni": 0.2996,
+    "reason": "not above liquidus observation(s) up to 1815 K"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json",
+    "index": 2,
+    "T": 1733.0,
+    "x_Ni": 0.5998,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json",
+    "index": 3,
+    "T": 1733.0,
+    "x_Ni": 0.7,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json",
+    "index": 6,
+    "T": 1733.0,
+    "x_Ni": 0.9799,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json",
+    "index": 0,
+    "T": 1783.0,
+    "x_Ni": 0.2996,
+    "reason": "not above liquidus observation(s) up to 1815 K"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json",
+    "index": 2,
+    "T": 1783.0,
+    "x_Ni": 0.5998,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json",
+    "index": 3,
+    "T": 1783.0,
+    "x_Ni": 0.7,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json",
+    "index": 6,
+    "T": 1783.0,
+    "x_Ni": 0.9799,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1833-1833K.json",
+    "index": 2,
+    "T": 1833.0,
+    "x_Ni": 0.5998,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-kat1833-1833K.json",
+    "index": 3,
+    "T": 1833.0,
+    "x_Ni": 0.7,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json",
+    "index": 3,
+    "T": 1873.0,
+    "x_Ni": 0.759,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json",
+    "index": 6,
+    "T": 1873.0,
+    "x_Ni": 0.8546,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json",
+    "index": 3,
+    "T": 1873.0,
+    "x_Ni": 0.6015,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json",
+    "index": 4,
+    "T": 1873.0,
+    "x_Ni": 0.6493,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json",
+    "index": 9,
+    "T": 1873.0,
+    "x_Ni": 0.8575,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json",
+    "index": 1,
+    "T": 1960.0,
+    "x_Ni": 0.6529,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json",
+    "index": 4,
+    "T": 1960.0,
+    "x_Ni": 0.699,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json",
+    "index": 9,
+    "T": 1960.0,
+    "x_Ni": 0.8029,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json",
+    "index": 12,
+    "T": 1960.0,
+    "x_Ni": 0.8672,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json",
+    "index": 15,
+    "T": 1960.0,
+    "x_Ni": 0.921,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json",
+    "index": 18,
+    "T": 1960.0,
+    "x_Ni": 0.9777,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json",
+    "index": 0,
+    "T": 2200.0,
+    "x_Ni": 0.0529,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json",
+    "index": 3,
+    "T": 2200.0,
+    "x_Ni": 0.1267,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json",
+    "index": 5,
+    "T": 2200.0,
+    "x_Ni": 0.1847,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json",
+    "index": 7,
+    "T": 2200.0,
+    "x_Ni": 0.2535,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json",
+    "index": 13,
+    "T": 2200.0,
+    "x_Ni": 0.6943,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json",
+    "index": 19,
+    "T": 2200.0,
+    "x_Ni": 0.8599,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json",
+    "index": 0,
+    "T": 1729.0,
+    "x_Ni": 0.977,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json",
+    "index": 5,
+    "T": 1729.0,
+    "x_Ni": 0.865,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json",
+    "index": 8,
+    "T": 1729.0,
+    "x_Ni": 0.801,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json",
+    "index": 12,
+    "T": 1729.0,
+    "x_Ni": 0.706,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json",
+    "index": 14,
+    "T": 1729.0,
+    "x_Ni": 0.645,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json",
+    "index": 15,
+    "T": 1729.0,
+    "x_Ni": 0.649,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json",
+    "index": 20,
+    "T": 1729.0,
+    "x_Ni": 0.543,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json",
+    "index": 0,
+    "T": 1990.0,
+    "x_Ni": 0.968,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json",
+    "index": 6,
+    "T": 1990.0,
+    "x_Ni": 0.856,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json",
+    "index": 8,
+    "T": 1990.0,
+    "x_Ni": 0.809,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json",
+    "index": 9,
+    "T": 1990.0,
+    "x_Ni": 0.813,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json",
+    "index": 15,
+    "T": 1990.0,
+    "x_Ni": 0.702,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json",
+    "index": 21,
+    "T": 1990.0,
+    "x_Ni": 0.598,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json",
+    "index": 24,
+    "T": 1990.0,
+    "x_Ni": 0.537,
+    "reason": "no liquidus observation within 0.02"
+   },
+   {
+    "dataset": "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json",
+    "index": 25,
+    "T": 1990.0,
+    "x_Ni": 0.538,
+    "reason": "no liquidus observation within 0.02"
+   }
+  ],
+  "n_liquidus_observations": 32
+ },
+ "note": "ZPF regions with one known end enter twice, as (i) the known phase single-phase and (ii) the two-phase null-vertex ZPF condition, both derived from the same parent point (PI rule 2026-11-05); no further double counting is claimed or corrected. Hinge confidence 0.5 is a coordinator choice for the PI to confirm."
+}

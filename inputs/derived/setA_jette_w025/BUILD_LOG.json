@@ -1,0 +1,230 @@
+{
+ "zpf": {
+  "bechtoldt1961redetermination": {
+   "points": 5,
+   "converted_single": 5,
+   "weight": 1.0
+  },
+  "collins1988electron": {
+   "points": 21,
+   "converted_single": 21,
+   "weight": 1.0
+  },
+  "dench1963adiabatic": {
+   "points": 5,
+   "converted_single": 5,
+   "weight": 1.0
+  },
+  "jenkins1937some_alloys": {
+   "points": 49,
+   "converted_single": 49,
+   "weight": 1.0
+  },
+  "jette1934xray": {
+   "points": 28,
+   "converted_single": 28,
+   "weight": 0.25
+  },
+  "karmazin1982lattice": {
+   "points": 7,
+   "converted_single": 7,
+   "weight": 1.0
+  },
+  "taylor1952constitution": {
+   "points": 9,
+   "converted_single": 9,
+   "weight": 1.0
+  },
+  "zhang2014impurity": {
+   "points": 1,
+   "converted_single": 0,
+   "weight": 10.0
+  },
+  "svechnikov1962characteristics": {
+   "points": 15,
+   "converted_single": 15,
+   "weight": 1.0
+  }
+ },
+ "thermo": {
+  "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-dench1963adiabatic.json": {
+   "output": "HM_FORM",
+   "phases": [
+    "BCC_A2"
+   ],
+   "n": 8,
+   "sigma": 1000.0
+  },
+  "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-watson1995enthapies.json": {
+   "output": "HM_FORM",
+   "phases": [
+    "BCC_A2"
+   ],
+   "n": 6,
+   "sigma": 1000.0
+  },
+  "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_MIX-BCC_A2-estimated.json": "not used (estimate, not an observation)",
+  "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-dench1963adiabatic.json": {
+   "output": "HM_FORM",
+   "phases": [
+    "FCC_A1"
+   ],
+   "n": 11,
+   "sigma": 1000.0
+  },
+  "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-watson1995enthapies.json": {
+   "output": "HM_FORM",
+   "phases": [
+    "FCC_A1"
+   ],
+   "n": 4,
+   "sigma": 1000.0
+  },
+  "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 24,
+   "sigma": 1500.0
+  },
+  "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 28,
+   "sigma": 1500.0
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "n": 13,
+   "sigma": 1000.0
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "n": 13,
+   "sigma": 1000.0
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "n": 13,
+   "sigma": 1000.0
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "n": 13,
+   "sigma": 1000.0
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "n": 13,
+   "sigma": 1000.0
+  },
+  "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 19,
+   "sigma": 1500.0
+  },
+  "hao/CR-NI-HM_MIX-LIQUID-saltykov-1729K.json": "not used (duplicate of the ESPEI-datasets digitisation of the same measurements)",
+  "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 24,
+   "sigma": 1500.0
+  },
+  "hao/CR-NI-HM_MIX-LIQUID-thiedemann-1990K.json": "not used (duplicate of the ESPEI-datasets digitisation of the same measurements)",
+  "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 6,
+   "sigma": 2500.0
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 7,
+   "sigma": 2500.0
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 7,
+   "sigma": 2500.0
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-kat1833-1833K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 6,
+   "sigma": 2500.0
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 9,
+   "sigma": 2500.0
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-sud1833-1833K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 3,
+   "sigma": 2500.0
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "n": 10,
+   "sigma": 2500.0
+  },
+  "dft_HM_MIX_BCC_A2_liu2016.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "BCC_A2"
+   ],
+   "n": 3,
+   "sigma": 7200.0
+  },
+  "dft_HM_MIX_FCC_A1_liu2016.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "FCC_A1"
+   ],
+   "n": 3,
+   "sigma": 7200.0
+  }
+ }
+}

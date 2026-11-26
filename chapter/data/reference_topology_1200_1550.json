@@ -1,0 +1,188 @@
+{
+  "source": "Independent Cr--Ni phase-diagram topology from Tang and Hallstedt, pinned SGTE dataset",
+  "source_doi": "10.1016/j.calphad.2016.10.003",
+  "collection_doi": "10.1016/j.calphad.2025.102833",
+  "tdb_sha256": "d6a051a1fa81b2256ddc76ac32d7b614036cbad64dd32aad3738caebac4a662f",
+  "temperature_window_K": [
+    1200.0,
+    1550.0
+  ],
+  "graph": {
+    "fields": [
+      "BCC_A2",
+      "BCC_A2+FCC_A1",
+      "FCC_A1"
+    ],
+    "boundary_edges": [
+      "BCC_A2/(BCC_A2+FCC_A1)",
+      "(BCC_A2+FCC_A1)/FCC_A1"
+    ],
+    "invariant_reactions": [],
+    "terminal_conditions": {
+      "x_NI->0": "BCC_A2",
+      "x_NI->1": "FCC_A1"
+    }
+  },
+  "slices": [
+    {
+      "temperature_K": 1200.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.04449211679880601,
+      "fcc_side_x_NI": 0.5634345860142148
+    },
+    {
+      "temperature_K": 1225.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.05157447752054471,
+      "fcc_side_x_NI": 0.5556285118989298
+    },
+    {
+      "temperature_K": 1250.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.059905991257092034,
+      "fcc_side_x_NI": 0.5480321692556522
+    },
+    {
+      "temperature_K": 1275.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.06985562325638033,
+      "fcc_side_x_NI": 0.540693705681808
+    },
+    {
+      "temperature_K": 1300.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.08199827142439603,
+      "fcc_side_x_NI": 0.533669912782198
+    },
+    {
+      "temperature_K": 1325.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.0973028172139615,
+      "fcc_side_x_NI": 0.5270317656992589
+    },
+    {
+      "temperature_K": 1350.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.117577063125842,
+      "fcc_side_x_NI": 0.5208762714524493
+    },
+    {
+      "temperature_K": 1375.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.14659624192295137,
+      "fcc_side_x_NI": 0.5153544511210764
+    },
+    {
+      "temperature_K": 1400.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.19107272178070084,
+      "fcc_side_x_NI": 0.5107333637232856
+    },
+    {
+      "temperature_K": 1425.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.2429413084005724,
+      "fcc_side_x_NI": 0.5073449790881935
+    },
+    {
+      "temperature_K": 1450.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.2806745759290513,
+      "fcc_side_x_NI": 0.505128233013951
+    },
+    {
+      "temperature_K": 1473.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.3057114188477511,
+      "fcc_side_x_NI": 0.5038940739614165
+    },
+    {
+      "temperature_K": 1475.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.3076125541525776,
+      "fcc_side_x_NI": 0.503818356888542
+    },
+    {
+      "temperature_K": 1500.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.32889652162301075,
+      "fcc_side_x_NI": 0.5032600879268847
+    },
+    {
+      "temperature_K": 1525.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.3469803634348543,
+      "fcc_side_x_NI": 0.5033773404699027
+    },
+    {
+      "temperature_K": 1550.0,
+      "field_sequence": [
+        "BCC_A2",
+        "BCC_A2+FCC_A1",
+        "FCC_A1"
+      ],
+      "bcc_side_x_NI": 0.3631194644917499,
+      "fcc_side_x_NI": 0.5041365397850897
+    }
+  ]
+}

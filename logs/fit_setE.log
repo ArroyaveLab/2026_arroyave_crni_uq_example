@@ -1,0 +1,8 @@
+{"set": "setE_orchid_sigmas", "start": "near_opt_0", "logpost": -6149.92594286903, "grad_norm_q": 3.869342707543006e-05, "nfev": 56, "seconds": 233.59324662480503, "n_nonfinite": 0}
+{"set": "setE_orchid_sigmas", "start": "paper_start", "logpost": -6149.925942872146, "grad_norm_q": 0.00015939351002562552, "nfev": 61, "seconds": 258.9889991255477, "n_nonfinite": 0}
+{"set": "setE_orchid_sigmas", "start": "paper_opt", "logpost": -6153.7030866709, "grad_norm_q": 5.5161416574226167e-05, "nfev": 62, "seconds": 263.6218458330259, "n_nonfinite": 0}
+{"set": "setE_orchid_sigmas", "start": "near_opt_1", "logpost": -6150.018071476773, "grad_norm_q": 3.913183080261206e-05, "nfev": 80, "seconds": 337.31877620797604, "n_nonfinite": 0}
+{"set": "setE_orchid_sigmas", "start": "near_opt_2", "logpost": -6153.7030814337095, "grad_norm_q": 2.2573229875992647e-05, "nfev": 68, "seconds": 299.6392752500251, "n_nonfinite": 0}
+{"set": "setE_orchid_sigmas", "start": "near_start_1", "logpost": -6149.925948313082, "grad_norm_q": 2.177148654047991e-06, "nfev": 80, "seconds": 349.40537358261645, "n_nonfinite": 0}
+{"set": "setE_orchid_sigmas", "start": "near_start_0", "logpost": -6149.9259428675605, "grad_norm_q": 3.575742849643043e-05, "nfev": 85, "seconds": 383.3751770425588, "n_nonfinite": 1}
+{"set": "setE_orchid_sigmas", "start": "near_start_2", "logpost": -6149.925948313455, "grad_norm_q": 3.410962649633649e-05, "nfev": 74, "seconds": 316.212465999648, "n_nonfinite": 0}

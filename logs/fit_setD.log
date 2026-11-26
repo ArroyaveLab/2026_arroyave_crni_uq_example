@@ -1,0 +1,8 @@
+{"set": "setD_twophase_hinge", "start": "near_opt_1", "logpost": -7416.544312906365, "grad_norm_q": 4.138307607087443, "nfev": 129, "seconds": 781.5472654998302, "n_nonfinite": 0}
+{"set": "setD_twophase_hinge", "start": "paper_opt", "logpost": -7431.061567950809, "grad_norm_q": 14.466305658845824, "nfev": 129, "seconds": 783.9265635004267, "n_nonfinite": 0}
+{"set": "setD_twophase_hinge", "start": "near_opt_0", "logpost": -7393.769122211325, "grad_norm_q": 2.777460435105744, "nfev": 198, "seconds": 1187.004212582484, "n_nonfinite": 0}
+{"set": "setD_twophase_hinge", "start": "paper_start", "logpost": -7387.6551705556585, "grad_norm_q": 2.147743356922396, "nfev": 241, "seconds": 1403.6901019997895, "n_nonfinite": 0}
+{"set": "setD_twophase_hinge", "start": "near_opt_2", "logpost": -7416.572832451987, "grad_norm_q": 5.986802023130769, "nfev": 172, "seconds": 919.0666401246563, "n_nonfinite": 0}
+{"set": "setD_twophase_hinge", "start": "near_start_2", "logpost": -7416.077361942127, "grad_norm_q": 4.5753202197186695, "nfev": 141, "seconds": 656.1141513744369, "n_nonfinite": 0}
+{"set": "setD_twophase_hinge", "start": "near_start_0", "logpost": -7416.381486064188, "grad_norm_q": 5.694327773364215, "nfev": 259, "seconds": 1310.2479914575815, "n_nonfinite": 0}
+{"set": "setD_twophase_hinge", "start": "near_start_1", "logpost": -7416.633067011515, "grad_norm_q": 5.433665166876463, "nfev": 374, "seconds": 1487.9297145428136, "n_nonfinite": 0}

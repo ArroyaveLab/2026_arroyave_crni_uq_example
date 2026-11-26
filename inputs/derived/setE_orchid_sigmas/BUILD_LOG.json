@@ -1,0 +1,78 @@
+{
+ "base": "setD_twophase_hinge (hinge unchanged)",
+ "orchid_rule_sigmas": {
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": {
+   "output": "ACR_CR",
+   "sigma_effective_J": 2900.0,
+   "weight": 0.1724137931034483,
+   "basis": "ACTIVITY / unknown method class floor 2.9 kJ/mol on RT ln a (cleaned_below_threshold, 9 pairs)",
+   "sigma_printed": null,
+   "method_class": "unknown"
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": {
+   "output": "ACR_CR",
+   "sigma_effective_J": 2900.0,
+   "weight": 0.1724137931034483,
+   "basis": "ACTIVITY / unknown method class floor 2.9 kJ/mol on RT ln a (cleaned_below_threshold, 9 pairs)",
+   "sigma_printed": null,
+   "method_class": "unknown"
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": {
+   "output": "ACR_CR",
+   "sigma_effective_J": 2900.0,
+   "weight": 0.1724137931034483,
+   "basis": "ACTIVITY / unknown method class floor 2.9 kJ/mol on RT ln a (cleaned_below_threshold, 9 pairs)",
+   "sigma_printed": null,
+   "method_class": "unknown"
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": {
+   "output": "ACR_CR",
+   "sigma_effective_J": 2900.0,
+   "weight": 0.1724137931034483,
+   "basis": "ACTIVITY / unknown method class floor 2.9 kJ/mol on RT ln a (cleaned_below_threshold, 9 pairs)",
+   "sigma_printed": null,
+   "method_class": "unknown"
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": {
+   "output": "ACR_CR",
+   "sigma_effective_J": 2900.0,
+   "weight": 0.1724137931034483,
+   "basis": "ACTIVITY / unknown method class floor 2.9 kJ/mol on RT ln a (cleaned_below_threshold, 9 pairs)",
+   "sigma_printed": null,
+   "method_class": "unknown"
+  },
+  "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-dench1963adiabatic.json": {
+   "output": "HM_FORM",
+   "sigma_effective_J": 3500.0,
+   "weight": 0.14285714285714285,
+   "basis": "HM_FORM / unknown method class floor 3.5 kJ/mol-atom (calibrated, 290 pairs)",
+   "sigma_printed": null,
+   "method_class": "unknown"
+  },
+  "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-watson1995enthapies.json": {
+   "output": "HM_FORM",
+   "sigma_effective_J": 3500.0,
+   "weight": 0.14285714285714285,
+   "basis": "HM_FORM / unknown method class floor 3.5 kJ/mol-atom (calibrated, 290 pairs)",
+   "sigma_printed": null,
+   "method_class": "unknown"
+  },
+  "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-dench1963adiabatic.json": {
+   "output": "HM_FORM",
+   "sigma_effective_J": 3500.0,
+   "weight": 0.14285714285714285,
+   "basis": "HM_FORM / unknown method class floor 3.5 kJ/mol-atom (calibrated, 290 pairs)",
+   "sigma_printed": null,
+   "method_class": "unknown"
+  },
+  "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-watson1995enthapies.json": {
+   "output": "HM_FORM",
+   "sigma_effective_J": 3500.0,
+   "weight": 0.14285714285714285,
+   "basis": "HM_FORM / unknown method class floor 3.5 kJ/mol-atom (calibrated, 290 pairs)",
+   "sigma_printed": null,
+   "method_class": "unknown"
+  }
+ },
+ "data_flag_not_changed": "pugliese1970activities-3 (1448.15 K): a_Cr = 0.112 at x_Cr = 0.95 between 0.98 and 0.998; probable transcription error in ESPEI-datasets; kept, reported to the PI"
+}

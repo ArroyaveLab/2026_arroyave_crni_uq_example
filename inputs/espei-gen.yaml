@@ -1,0 +1,9 @@
+system:
+  phase_models: CR-NI_phases.json
+  datasets: input-data
+generate_parameters:
+  excess_model: linear
+  ref_state: SGTE91
+output:
+  output_db: cr-ni_gen.tdb
+  verbosity: 1

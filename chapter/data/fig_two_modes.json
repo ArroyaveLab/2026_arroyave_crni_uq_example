@@ -1,0 +1,24 @@
+{
+ "accepted": {
+  "logpost": -6153.7030814337095,
+  "stable_gap_T": null,
+  "binodal_top_K": 1345.0,
+  "max_signed_depth_J": [
+   1345.0,
+   -158.4103316134133
+  ]
+ },
+ "gap": {
+  "logpost": -6149.9259428675605,
+  "stable_gap_T": [
+   1363.0,
+   1421.0
+  ],
+  "binodal_top_K": 1421.0,
+  "max_signed_depth_J": [
+   1406.0,
+   38.77391895368055
+  ]
+ },
+ "gap_top_difference_K": 76.0
+}

@@ -1,0 +1,51 @@
+{
+ "DFT_fit_L0_L1_J": [
+  38400.00000000001,
+  26880.000000000007
+ ],
+ "Tc_regular_DFT_K (4H(0.5)/2R)": 2200.984097322452,
+ "Tc_subregular_DFT_K": [
+  3582.0,
+  0.28
+ ],
+ "Tc_fit_topook": [
+  1346.0,
+  0.22
+ ],
+ "Tc_fit_gapmode": [
+  1421.0,
+  0.21
+ ],
+ "Tc_paper_opt": [
+  1316.0,
+  0.22999999999999998
+ ],
+ "n_states": 74,
+ "paper_opt": {
+  "penalty": 0.0,
+  "n_violations": 0,
+  "min_curvature_J": 9720.434074646662,
+  "grad_vs_fd_rel": null,
+  "worst": []
+ },
+ "topook": {
+  "penalty": 0.0,
+  "n_violations": 0,
+  "min_curvature_J": 5927.477106847335,
+  "grad_vs_fd_rel": null,
+  "worst": []
+ },
+ "gapmode": {
+  "penalty": 3.747173053692291e-06,
+  "n_violations": 1,
+  "min_curvature_J": -2190.0642704555794,
+  "grad_vs_fd_rel": 1.868723327936225e-12,
+  "worst": [
+   [
+    1403.0,
+    0.20299999999999996,
+    -2190.0642704555794
+   ]
+  ]
+ }
+}

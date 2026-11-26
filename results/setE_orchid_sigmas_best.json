@@ -1,0 +1,342 @@
+{
+ "set": "setE_orchid_sigmas",
+ "best_start": "near_opt_2",
+ "logpost": -6153.7030814337095,
+ "grad_norm_q": 2.2573229875992647e-05,
+ "theta": {
+  "L0liq_a": -12847.067577361137,
+  "L0liq_b": 2.427093611990282,
+  "L0bcc_a": 17613.02693656444,
+  "L0bcc_b": -11.320009808916414,
+  "L1bcc_a": 28081.516751983017,
+  "L1bcc_b": -7.498391185669864,
+  "L0fcc_a": 3116.769149111301,
+  "L0fcc_b": -8.39441249626534,
+  "L1fcc_a": 41701.27766971216,
+  "L1fcc_b": -24.732904728753848
+ },
+ "tdb_symbols": {
+  "VV0000": -12847.067577361137,
+  "VV0001": 2.427093611990282,
+  "VV0002": 17613.02693656444,
+  "VV0003": -11.320009808916414,
+  "VV0004": 28081.516751983017,
+  "VV0005": -7.498391185669864,
+  "VV0006": 3116.769149111301,
+  "VV0007": -8.39441249626534,
+  "VV0008": 41701.27766971216,
+  "VV0009": -24.732904728753848
+ },
+ "topology_800_2200K": {
+  "ok": true,
+  "T_liquid_min_K": 1625.0,
+  "T_bcc_fcc_max_K": 1620.0,
+  "gaps": [],
+  "bad_T": []
+ },
+ "sequences_300_800K": [
+  "BCC_A2 -> BCC_A2+FCC_A1 -> FCC_A1",
+  "BCC_A2+FCC_A1 -> FCC_A1"
+ ],
+ "boundaries_xNi": {
+  "800K": {
+   "bcc": 0.0016666666666666668,
+   "fcc": 0.6966666666666667
+  },
+  "1000K": {
+   "bcc": 0.01,
+   "fcc": 0.6383333333333334
+  },
+  "1200K": {
+   "bcc": 0.035833333333333335,
+   "fcc": 0.5675
+  },
+  "1473K": {
+   "bcc": 0.28500000000000003,
+   "fcc": 0.48500000000000004
+  }
+ },
+ "zhang2014_1473K": {
+  "bcc": 0.282,
+  "fcc": 0.508
+ },
+ "excess_energies": {
+  "x_Ni=0.25": {
+   "H_ex_J": {
+    "LIQUID": -2408.8,
+    "BCC_A2": 5935.1,
+    "FCC_A1": 4493.9
+   },
+   "S_ex_J_K": {
+    "LIQUID": -0.455,
+    "BCC_A2": 2.825,
+    "FCC_A1": 3.893
+   }
+  },
+  "x_Ni=0.5": {
+   "H_ex_J": {
+    "LIQUID": -3211.8,
+    "BCC_A2": 4403.3,
+    "FCC_A1": 779.2
+   },
+   "S_ex_J_K": {
+    "LIQUID": -0.607,
+    "BCC_A2": 2.83,
+    "FCC_A1": 2.099
+   }
+  },
+  "x_Ni=0.75": {
+   "H_ex_J": {
+    "LIQUID": -2408.8,
+    "BCC_A2": 669.8,
+    "FCC_A1": -3325.1
+   },
+   "S_ex_J_K": {
+    "LIQUID": -0.455,
+    "BCC_A2": 1.42,
+    "FCC_A1": -0.745
+   }
+  }
+ },
+ "reference_values": {
+  "DFT_HM_MIX_kJ (Liu 2016, x_Cr .75/.5/.25)": {
+   "BCC": [
+    10.02,
+    9.15,
+    4.98
+   ],
+   "FCC": [
+    -12.69,
+    -9.03,
+    -5.79
+   ]
+  },
+  "liquid_HM_MIX_x0.5_kJ": "about -3 to -4.9 (Saltykov, Thiedemann, Sudavtsova); Batalin positive"
+ },
+ "paper_opt_for_comparison": {
+  "L0liq_a": -13552.9,
+  "L0liq_b": 5.788,
+  "L0bcc_a": 14895.0,
+  "L0bcc_b": -6.353,
+  "L1bcc_a": 28769.5,
+  "L1bcc_b": -10.423,
+  "L0fcc_a": 4359.7,
+  "L0fcc_b": -5.957,
+  "L1fcc_a": 24477.4,
+  "L1fcc_b": -14.899
+ },
+ "figure": "figures/fit_setE_orchid_sigmas_best.png",
+ "any_endpoint_topology_ok": true,
+ "ranked_endpoints": [
+  {
+   "start": "near_start_0",
+   "logpost": -6149.9259428675605,
+   "grad_norm_q": 3.575742849643043e-05,
+   "topology_ok": false,
+   "T_liquid_min": 1640.0,
+   "n_bad_T": 12,
+   "gaps": 12,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 1,
+   "theta": [
+    -12847.689980035411,
+    2.4105694285278805,
+    299.1080721886923,
+    -1.1324301995457131,
+    47392.73211237487,
+    -18.40649685251084,
+    1565.4951110390448,
+    -7.7267794024636745,
+    10618.829003391125,
+    -8.274386395922546
+   ]
+  },
+  {
+   "start": "near_opt_0",
+   "logpost": -6149.92594286903,
+   "grad_norm_q": 3.869342707543006e-05,
+   "topology_ok": false,
+   "T_liquid_min": 1640.0,
+   "n_bad_T": 12,
+   "gaps": 12,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -12847.673886983239,
+    2.4105624275591984,
+    299.0424643239174,
+    -1.1323857901280654,
+    47392.92103359683,
+    -18.40663427979513,
+    1565.3444607867834,
+    -7.726678601027789,
+    10618.776819231181,
+    -8.274365203124747
+   ]
+  },
+  {
+   "start": "paper_start",
+   "logpost": -6149.925942872146,
+   "grad_norm_q": 0.00015939351002562552,
+   "topology_ok": false,
+   "T_liquid_min": 1640.0,
+   "n_bad_T": 12,
+   "gaps": 12,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -12847.674240240363,
+    2.41056808318762,
+    299.12879591853704,
+    -1.1324198778608636,
+    47392.71083615027,
+    -18.406565014506725,
+    1565.4296666652472,
+    -7.726715889106188,
+    10618.628502308058,
+    -8.274306612996025
+   ]
+  },
+  {
+   "start": "near_start_1",
+   "logpost": -6149.925948313082,
+   "grad_norm_q": 2.177148654047991e-06,
+   "topology_ok": false,
+   "T_liquid_min": 1640.0,
+   "n_bad_T": 12,
+   "gaps": 12,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -12847.72659394223,
+    2.4104617080116877,
+    299.35696228685333,
+    -1.1326817440014016,
+    47390.69729055347,
+    -18.405179849055877,
+    1571.4642478999856,
+    -7.730876061457258,
+    10647.119149225788,
+    -8.292283791247655
+   ]
+  },
+  {
+   "start": "near_start_2",
+   "logpost": -6149.925948313455,
+   "grad_norm_q": 3.410962649633649e-05,
+   "topology_ok": false,
+   "T_liquid_min": 1640.0,
+   "n_bad_T": 12,
+   "gaps": 12,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -12847.719858904036,
+    2.410453832756711,
+    299.35931764706356,
+    -1.1326949092799592,
+    47390.677417338826,
+    -18.40514085147107,
+    1571.456189322531,
+    -7.730878372273566,
+    10647.170466619027,
+    -8.292312225239282
+   ]
+  },
+  {
+   "start": "near_opt_1",
+   "logpost": -6150.018071476773,
+   "grad_norm_q": 3.913183080261206e-05,
+   "topology_ok": false,
+   "T_liquid_min": 1640.0,
+   "n_bad_T": 17,
+   "gaps": 17,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -12850.670222047405,
+    2.398578638969109,
+    962.4275786295626,
+    -1.57537603699429,
+    46552.42963695145,
+    -17.777952108473787,
+    2832.7675958697473,
+    -8.558929749898624,
+    14605.590081993232,
+    -10.848555878976578
+   ]
+  },
+  {
+   "start": "near_opt_2",
+   "logpost": -6153.7030814337095,
+   "grad_norm_q": 2.2573229875992647e-05,
+   "topology_ok": true,
+   "T_liquid_min": 1625.0,
+   "n_bad_T": 0,
+   "gaps": 0,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -12847.067577361137,
+    2.427093611990282,
+    17613.02693656444,
+    -11.320009808916414,
+    28081.516751983017,
+    -7.498391185669864,
+    3116.769149111301,
+    -8.39441249626534,
+    41701.27766971216,
+    -24.732904728753848
+   ]
+  },
+  {
+   "start": "paper_opt",
+   "logpost": -6153.7030866709,
+   "grad_norm_q": 5.5161416574226167e-05,
+   "topology_ok": true,
+   "T_liquid_min": 1625.0,
+   "n_bad_T": 0,
+   "gaps": 0,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -12847.34034278833,
+    2.4266959041830187,
+    17542.390945750467,
+    -11.286892085238879,
+    28132.095188545776,
+    -7.500293282971968,
+    3165.218100836999,
+    -8.429592107871377,
+    41733.230402947884,
+    -24.774377709357463
+   ]
+  }
+ ],
+ "verdict": "Chapter candidate (topology-first ranking, plausible energies): correct topology 800-2200 K, logpost -6153.70, reached from 2 of 8 starts (paper_opt, near_opt_2). The other 6 starts reach a BCC+BCC-gap mode 3.78 log-units higher (results/setE_orchid_sigmas_gapmode.json); no source reports a BCC gap; DFT mixing energies imply a metastable BCC gap (Tc ~2200 K regular)."
+}

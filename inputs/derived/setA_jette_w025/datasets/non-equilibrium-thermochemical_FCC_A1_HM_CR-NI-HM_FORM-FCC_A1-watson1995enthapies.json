@@ -1,0 +1,85 @@
+{
+ "components": [
+  "CR",
+  "NI"
+ ],
+ "phases": [
+  "FCC_A1"
+ ],
+ "solver": {
+  "mode": "manual",
+  "sublattice_site_ratios": [
+   1
+  ],
+  "sublattice_configurations": [
+   [
+    [
+     "CR",
+     "NI"
+    ]
+   ],
+   [
+    [
+     "CR",
+     "NI"
+    ]
+   ],
+   [
+    [
+     "CR",
+     "NI"
+    ]
+   ],
+   [
+    [
+     "CR",
+     "NI"
+    ]
+   ]
+  ],
+  "sublattice_occupancies": [
+   [
+    [
+     0.1,
+     0.9
+    ]
+   ],
+   [
+    [
+     0.1,
+     0.9
+    ]
+   ],
+   [
+    [
+     0.4,
+     0.6
+    ]
+   ],
+   [
+    [
+     0.4,
+     0.6
+    ]
+   ]
+  ]
+ },
+ "conditions": {
+  "P": 101325,
+  "T": 1583
+ },
+ "output": "HM_FORM",
+ "values": [
+  [
+   [
+    -1100,
+    -1510,
+    2880,
+    3280
+   ]
+  ]
+ ],
+ "reference": "watson1995enthapies",
+ "comment": "From Table 5. Converted from kJ to J. Two phase data neglected. | REBUILD: sigma 1000.0 J/mol -> weight 0.5.",
+ "weight": 0.5
+}

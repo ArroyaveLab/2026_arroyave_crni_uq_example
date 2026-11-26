@@ -1,0 +1,2 @@
+{"set": "setB_no_jette", "start": "paper_start", "logpost": -3620.599487605755, "grad_norm_q": 7.989464287593053, "nfev": 134, "seconds": 411.1972574163228, "n_nonfinite": 0}
+{"set": "setB_no_jette", "start": "paper_opt", "logpost": -3622.045402624701, "grad_norm_q": 7.86344457747382, "nfev": 174, "seconds": 521.1810342501849, "n_nonfinite": 0}

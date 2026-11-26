@@ -1,0 +1,6 @@
+{"step": 1, "result": "reproduced",
+ "paper_opt_diagram": "figures/step1_paper_opt.png", "paper_figure": "figures/step1_paper_figure_original.png",
+ "boundaries_1473K_xNi": {"bcc": 0.284, "fcc": 0.507, "zhang2014": [0.282, 0.508]},
+ "fcc_boundary_xNi": {"1000K": 0.643, "800K": 0.71}, "lowest_liquid_K": 1620, "topology_800_2200K": "correct",
+ "paper_start": "BCC+BCC gap 1245-1340 K and above, eutectic ~1525 K (wrong)",
+ "likelihood_versions_agree": "ESPEI-grad 9039ea2 vs ESPEI 0.9.0 to 1e-9 (tests/compare_*.json)"}

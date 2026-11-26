@@ -1,0 +1,195 @@
+{
+ "set": "setA_jette_w025",
+ "best_start": "paper_opt",
+ "logpost": -3880.009040608109,
+ "grad_norm_q": 7.849769126381534,
+ "theta": {
+  "L0liq_a": -13879.423257428625,
+  "L0liq_b": 2.2713657862303425,
+  "L0bcc_a": 13678.003090165497,
+  "L0bcc_b": -9.72810232417021,
+  "L1bcc_a": 29126.94724492131,
+  "L1bcc_b": -10.855448456553717,
+  "L0fcc_a": 2082.3013430204874,
+  "L0fcc_b": -9.8092750582691,
+  "L1fcc_a": 24707.40760664836,
+  "L1fcc_b": -14.077815169839573
+ },
+ "tdb_symbols": {
+  "VV0000": -13879.423257428625,
+  "VV0001": 2.2713657862303425,
+  "VV0002": 13678.003090165497,
+  "VV0003": -9.72810232417021,
+  "VV0004": 29126.94724492131,
+  "VV0005": -10.855448456553717,
+  "VV0006": 2082.3013430204874,
+  "VV0007": -9.8092750582691,
+  "VV0008": 24707.40760664836,
+  "VV0009": -14.077815169839573
+ },
+ "topology_800_2200K": {
+  "ok": false,
+  "T_liquid_min_K": 1680.0,
+  "T_bcc_fcc_max_K": 1675.0,
+  "gaps": [],
+  "bad_T": [
+   [
+    1740.0,
+    [
+     "BCC_A2",
+     "BCC_A2+LIQUID",
+     "LIQUID",
+     "LIQUID+FCC_A1",
+     "FCC_A1",
+     "FCC_A1+LIQUID",
+     "LIQUID"
+    ]
+   ],
+   [
+    1745.0,
+    [
+     "BCC_A2",
+     "BCC_A2+LIQUID",
+     "LIQUID",
+     "LIQUID+FCC_A1",
+     "FCC_A1",
+     "FCC_A1+LIQUID",
+     "LIQUID"
+    ]
+   ],
+   [
+    1750.0,
+    [
+     "BCC_A2",
+     "BCC_A2+LIQUID",
+     "LIQUID",
+     "LIQUID+FCC_A1",
+     "FCC_A1",
+     "FCC_A1+LIQUID",
+     "LIQUID"
+    ]
+   ]
+  ]
+ },
+ "sequences_300_800K": [
+  "BCC_A2 -> BCC_A2+FCC_A1 -> FCC_A1",
+  "BCC_A2+FCC_A1 -> FCC_A1"
+ ],
+ "boundaries_xNi": {
+  "800K": {
+   "bcc": 0.0033333333333333335,
+   "fcc": 0.6566666666666667
+  },
+  "1000K": {
+   "bcc": 0.0175,
+   "fcc": 0.5858333333333333
+  },
+  "1200K": {
+   "bcc": 0.06333333333333334,
+   "fcc": 0.5183333333333333
+  },
+  "1473K": {
+   "bcc": 0.25583333333333336,
+   "fcc": 0.4691666666666667
+  }
+ },
+ "zhang2014_1473K": {
+  "bcc": 0.282,
+  "fcc": 0.508
+ },
+ "excess_energies": {
+  "x_Ni=0.25": {
+   "H_ex_J": {
+    "LIQUID": -2602.4,
+    "BCC_A2": 5295.3,
+    "FCC_A1": 2706.8
+   },
+   "S_ex_J_K": {
+    "LIQUID": -0.426,
+    "BCC_A2": 2.842,
+    "FCC_A1": 3.159
+   }
+  },
+  "x_Ni=0.5": {
+   "H_ex_J": {
+    "LIQUID": -3469.9,
+    "BCC_A2": 3419.5,
+    "FCC_A1": 520.6
+   },
+   "S_ex_J_K": {
+    "LIQUID": -0.568,
+    "BCC_A2": 2.432,
+    "FCC_A1": 2.452
+   }
+  },
+  "x_Ni=0.75": {
+   "H_ex_J": {
+    "LIQUID": -2602.4,
+    "BCC_A2": -166.0,
+    "FCC_A1": -1925.9
+   },
+   "S_ex_J_K": {
+    "LIQUID": -0.426,
+    "BCC_A2": 0.806,
+    "FCC_A1": 0.519
+   }
+  }
+ },
+ "reference_values": {
+  "DFT_HM_MIX_kJ (Liu 2016, x_Cr .75/.5/.25)": {
+   "BCC": [
+    10.02,
+    9.15,
+    4.98
+   ],
+   "FCC": [
+    -12.69,
+    -9.03,
+    -5.79
+   ]
+  },
+  "liquid_HM_MIX_x0.5_kJ": "about -3 to -4.9 (Saltykov, Thiedemann, Sudavtsova); Batalin positive"
+ },
+ "paper_opt_for_comparison": {
+  "L0liq_a": -13552.9,
+  "L0liq_b": 5.788,
+  "L0bcc_a": 14895.0,
+  "L0bcc_b": -6.353,
+  "L1bcc_a": 28769.5,
+  "L1bcc_b": -10.423,
+  "L0fcc_a": 4359.7,
+  "L0fcc_b": -5.957,
+  "L1fcc_a": 24477.4,
+  "L1fcc_b": -14.899
+ },
+ "figure": "figures/fit_setA_jette_w025_best.png",
+ "any_endpoint_topology_ok": false,
+ "ranked_endpoints": [
+  {
+   "start": "paper_opt",
+   "logpost": -3880.009040608109,
+   "grad_norm_q": 7.849769126381534,
+   "topology_ok": false,
+   "T_liquid_min": 1680.0,
+   "n_bad_T": 3,
+   "gaps": 0,
+   "messages": [
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+   ],
+   "nonfinite_events": 0,
+   "theta": [
+    -13879.423257428625,
+    2.2713657862303425,
+    13678.003090165497,
+    -9.72810232417021,
+    29126.94724492131,
+    -10.855448456553717,
+    2082.3013430204874,
+    -9.8092750582691,
+    24707.40760664836,
+    -14.077815169839573
+   ]
+  }
+ ]
+}

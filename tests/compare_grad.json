@@ -1,0 +1,32 @@
+{
+ "paper_start": {
+  "parts": {
+   "ActivityResidual": -1621.8046806229606,
+   "FixedConfigurationPropertyResidual": -1107.5403680075863,
+   "ZPFResidual": -1377.3095481564155,
+   "EquilibriumPropertyResidual": 0.0
+  },
+  "grad_finite": {
+   "ActivityResidual": true,
+   "FixedConfigurationPropertyResidual": true,
+   "ZPFResidual": true,
+   "EquilibriumPropertyResidual": true
+  },
+  "s": 2.4903710409998894
+ },
+ "paper_opt": {
+  "parts": {
+   "ActivityResidual": -1514.2347122653919,
+   "FixedConfigurationPropertyResidual": -1114.4493507019235,
+   "ZPFResidual": -1325.642026729634,
+   "EquilibriumPropertyResidual": 0.0
+  },
+  "grad_finite": {
+   "ActivityResidual": true,
+   "FixedConfigurationPropertyResidual": true,
+   "ZPFResidual": true,
+   "EquilibriumPropertyResidual": true
+  },
+  "s": 2.2007102500647306
+ }
+}

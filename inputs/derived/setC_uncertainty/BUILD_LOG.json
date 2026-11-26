@@ -1,0 +1,306 @@
+{
+ "rule": "uncertainty-derived (ORCHID sigma_effective where the observation is in ORCHID, else ESPEI default)",
+ "datasets": {
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-LIQUID-bechtoldt1961redetermination.json": {
+   "output": "ZPF",
+   "phases": [
+    "BCC_A2",
+    "FCC_A1"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-bechtoldt1961redetermination.json": {
+   "output": "ZPF",
+   "phases": [
+    "FCC_A1"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-collins1988electron.json": {
+   "output": "ZPF",
+   "phases": [
+    "BCC_A2",
+    "FCC_A1"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-dench1963adiabatic.json": {
+   "output": "ZPF",
+   "phases": [
+    "BCC_A2"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jenkins1937some_alloys.json": {
+   "output": "ZPF",
+   "phases": [
+    "BCC_A2",
+    "FCC_A1",
+    "LIQUID"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-jette1934xray.json": {
+   "output": "ZPF",
+   "phases": [
+    "BCC_A2",
+    "FCC_A1"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-karmazin1982lattice.json": {
+   "output": "ZPF",
+   "phases": [
+    "FCC_A1"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-taylor1952constitution.json": {
+   "output": "ZPF",
+   "phases": [
+    "BCC_A2",
+    "FCC_A1"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-FCC_A1-zhang2014impurity.json": {
+   "output": "ZPF",
+   "phases": [
+    "BCC_A2",
+    "FCC_A1"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "zpf_CR-NI-ZPF-BCC_A2-LIQUID-svechnikov1962characteristics.json": {
+   "output": "ZPF",
+   "phases": [
+    "BCC_A2",
+    "LIQUID"
+   ],
+   "weight": 1.0,
+   "basis": "ZPF, ESPEI default 1000 J/mol driving force (ORCHID leaves ZPF at 1)"
+  },
+  "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-dench1963adiabatic.json": {
+   "output": "HM_FORM",
+   "phases": [
+    "BCC_A2"
+   ],
+   "weight": 1.0,
+   "basis": "not in ORCHID, ESPEI default 500 J/mol"
+  },
+  "non-equilibrium-thermochemical_BCC_A2_HM_CR-NI-HM_FORM-BCC_A2-watson1995enthapies.json": {
+   "output": "HM_FORM",
+   "phases": [
+    "BCC_A2"
+   ],
+   "weight": 1.0,
+   "basis": "not in ORCHID, ESPEI default 500 J/mol"
+  },
+  "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-dench1963adiabatic.json": {
+   "output": "HM_FORM",
+   "phases": [
+    "FCC_A1"
+   ],
+   "weight": 1.0,
+   "basis": "not in ORCHID, ESPEI default 500 J/mol"
+  },
+  "non-equilibrium-thermochemical_FCC_A1_HM_CR-NI-HM_FORM-FCC_A1-watson1995enthapies.json": {
+   "output": "HM_FORM",
+   "phases": [
+    "FCC_A1"
+   ],
+   "weight": 1.0,
+   "basis": "not in ORCHID, ESPEI default 500 J/mol"
+  },
+  "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-saltykov2002enthalpy.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.5,
+   "basis": "same measurement as ORCHID Hao record, sigma_effective 1000 J/mol"
+  },
+  "non-equilibrium-thermochemical_LIQUID_HM_CR-NI-HM_MIX-LIQUID-thiedemann1998mixing.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.5,
+   "basis": "same measurement as ORCHID Hao record, sigma_effective 1000 J/mol"
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-0.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "weight": 1.0,
+   "basis": "not in ORCHID, ESPEI default 500 J/mol"
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-1.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "weight": 1.0,
+   "basis": "not in ORCHID, ESPEI default 500 J/mol"
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-2.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "weight": 1.0,
+   "basis": "not in ORCHID, ESPEI default 500 J/mol"
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities-3.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "weight": 1.0,
+   "basis": "not in ORCHID, ESPEI default 500 J/mol"
+  },
+  "activity_CR-NI-ACR_CR-BCC_A2-pugliese1970activities.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "BCC_A2"
+   ],
+   "weight": 1.0,
+   "basis": "not in ORCHID, ESPEI default 500 J/mol"
+  },
+  "hao_CR-NI-HM_MIX-LIQUID-batalin-1960K.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.5,
+   "basis": "ORCHID Hao record, sigma_effective 1000 J/mol"
+  },
+  "hao_CR-NI-HM_MIX-LIQUID-sudavtsova-2200K.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.5,
+   "basis": "ORCHID Hao record, sigma_effective 1000 J/mol"
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-gilby-1873K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.172419,
+   "basis": "ORCHID Hao records, sigma_mu ~2900 J/mol, mean of per-value weights"
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-kat1733-1733K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.17242,
+   "basis": "ORCHID Hao records, sigma_mu ~2900 J/mol, mean of per-value weights"
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-kat1783-1783K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.1724,
+   "basis": "ORCHID Hao records, sigma_mu ~2900 J/mol, mean of per-value weights"
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-kat1833-1833K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.172419,
+   "basis": "ORCHID Hao records, sigma_mu ~2900 J/mol, mean of per-value weights"
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-pei-1873K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.1724,
+   "basis": "ORCHID Hao records, sigma_mu ~2900 J/mol, mean of per-value weights"
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-sud1833-1833K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.172406,
+   "basis": "ORCHID Hao records, sigma_mu ~2900 J/mol, mean of per-value weights"
+  },
+  "hao_CR-NI-ACR_CR-LIQUID-sud1873-1873K.json": {
+   "output": "ACR_CR",
+   "phases": [
+    "LIQUID"
+   ],
+   "weight": 0.172407,
+   "basis": "ORCHID Hao records, sigma_mu ~2900 J/mol, mean of per-value weights"
+  },
+  "dft_HM_MIX_BCC_A2_liu2016.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "BCC_A2"
+   ],
+   "weight": 0.06944444444444445,
+   "basis": "ORCHID DFT sigma_effective 7.2 kJ/mol"
+  },
+  "dft_HM_MIX_FCC_A1_liu2016.json": {
+   "output": "HM_MIX",
+   "phases": [
+    "FCC_A1"
+   ],
+   "weight": 0.06944444444444445,
+   "basis": "ORCHID DFT sigma_effective 7.2 kJ/mol"
+  }
+ },
+ "export_acr_weights_by_series": {
+  "00": [
+   0.172349,
+   0.172456,
+   7
+  ],
+  "01": [
+   0.172333,
+   0.172466,
+   7
+  ],
+  "02": [
+   0.172397,
+   0.172416,
+   3
+  ],
+  "03": [
+   0.172395,
+   0.172465,
+   6
+  ],
+  "04": [
+   0.172399,
+   0.172446,
+   10
+  ],
+  "05": [
+   0.172343,
+   0.17242,
+   6
+  ],
+  "06": [
+   0.172356,
+   0.17244,
+   9
+  ]
+ }
+}

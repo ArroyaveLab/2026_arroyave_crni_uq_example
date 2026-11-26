@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use these data or scripts, please cite them as below."
+title: "Cr-Ni uncertainty-analysis example: data and scripts"
+type: dataset
+authors:
+  - family-names: "Arróyave"
+    given-names: "Raymundo"
+    affiliation: "Texas A&M University"
+version: "0.1.0"
+date-released: "2026-11-26"
+license: CC-BY-4.0
+repository-code: "https://github.com/ArroyaveLab/2026_arroyave_crni_uq_example"
+keywords: [CALPHAD, uncertainty quantification, Cr-Ni, ESPEI, pycalphad]

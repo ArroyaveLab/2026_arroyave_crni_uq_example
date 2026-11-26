@@ -1,0 +1,47 @@
+{
+ "K": 100,
+ "classification": "of a parameter vector (same as cr-ni-setH-20261106/scripts/mode_occupancy.py):\n  ok    = pdfast.topology()[\"ok\"]  (accepted Cr-Ni topology over 800-2200 K, 5 K steps)\n  gap   = not ok and a same-phase (BCC_A2+BCC_A2) tie-line appears in the stable diagram\n  other = not ok, no gap",
+ "runs": {
+  "run1": {
+   "burn": 4283,
+   "n_thinned_steps_post_burn": 78,
+   "P_ok": 0.10833333333333334,
+   "P_ok_se": 0.013564253361146698,
+   "tau_ok_in_K_steps": 2.971335877159026,
+   "ess_ok": 525.0163779840191,
+   "P_gap": 0.7846153846153846,
+   "P_gap_se": 0.020275688028001677,
+   "P_other": 0.10705128205128205,
+   "crossings_ok_vs_not": 210,
+   "walkers_never_ok_post_burn": 0,
+   "P_ok_first_1000_steps": 0.39
+  },
+  "run2": {
+   "burn": 2667,
+   "n_thinned_steps_post_burn": 94,
+   "P_ok": 0.09680851063829787,
+   "P_ok_se": 0.011567665533547593,
+   "tau_ok_in_K_steps": 2.877106378572437,
+   "ess_ok": 653.4343026039999,
+   "P_gap": 0.799468085106383,
+   "P_gap_se": 0.017224894061424207,
+   "P_other": 0.10372340425531915,
+   "crossings_ok_vs_not": 251,
+   "walkers_never_ok_post_burn": 0,
+   "P_ok_first_1000_steps": 0.03
+  }
+ },
+ "per_run_fcc_map": {
+  "n_draws": [
+   905,
+   1095
+  ],
+  "max_abs_diff": 0.06403289689447256,
+  "mean_abs_diff": 0.031353433245020955,
+  "frac_cells_diff_gt_2se_binomial": 0.30721966205837176,
+  "P_fcc_decision": [
+   0.6530386740331492,
+   0.6858447488584475
+  ]
+ }
+}
